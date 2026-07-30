@@ -1,0 +1,23 @@
+site_name: Milena Georgieva
+site_description: AI Architect | LLMs | RAG | AI Agents | Time Series
+site_url: https://milenageorgieva.tech
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - awesome-pages
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+nav:
+  - Home: index.md
