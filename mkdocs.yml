@@ -1,23 +1,54 @@
 site_name: Milena Georgieva
 site_description: AI Architect | LLMs | RAG | AI Agents | Time Series
 site_url: https://milenageorgieva.tech
+repo_url: https://github.com/mimitheone/milenageorgieva.tech
+repo_name: GitHub
 
 theme:
   name: material
   language: en
+  favicon: assets/favicon.png
+  logo: assets/logo.png
+
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.instant
+    - navigation.indexes
+    - toc.follow
     - content.code.copy
+    - content.code.annotate
     - search.suggest
     - search.highlight
 
 plugins:
+  - search
   - awesome-pages
   - git-revision-date-localized:
       enable_creation_date: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji
 
 nav:
   - Home: index.md
