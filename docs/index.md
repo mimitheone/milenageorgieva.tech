@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/images/logo.png" width="300" alt="AI Engineering Handbook">
+  <img src="assets/images/logo-lockup.svg" alt="AI Engineering Handbook" width="620">
 </p>
 
 # AI Engineering Handbook
