@@ -1,6 +1,6 @@
 # AI Engineering Handbook
 
-Practical knowledge for building production AI systems.
+Notes from my AI engineering work — built as I go.
 
 ---
 
