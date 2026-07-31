@@ -1,6 +1,7 @@
 site_name: Working Notes on AI Systems
 site_description: Systems architecture and AI engineering notes — from production work.
 site_url: https://milenageorgieva.tech
+site_author: Milena Georgieva
 
 copyright: Copyright &copy; 2026 <a href="https://milenageorgieva.tech">Milena Georgieva</a>
 
@@ -59,6 +60,22 @@ plugins:
       type: date
       timezone: Europe/Sofia
       locale: en
+
+  - social:
+      cards_layout_options:
+        background_color: "#161314"
+        color: "#f5efe8"
+        font_family: IBM Plex Sans
+        logo: docs/assets/images/logo-mark.png
+
+  - rss:
+      match_path: "(llm|agents|ai-architecture|machine-learning|guardrails|ai-act)/(?!index\\.md)[^/]+\\.md"
+      date_from_meta:
+        as_creation: date
+        as_update: git
+      use_material_social_cards: true
+      length: 30
+      abstract_chars_count: 200
 
 markdown_extensions:
   - admonition
