@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block site_meta %}
+  {{ super() }}
+  {% include "partials/json-ld.html" %}
+{% endblock %}
+
 {% block content %}
   {% include "partials/content.html" %}
 {% endblock %}

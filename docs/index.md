@@ -16,6 +16,17 @@ If you spot an error, disagree with an approach or have a better idea, I would g
 
 ---
 
+## Learning Paths
+
+Curated reading orders — [start here](paths/index.md).
+
+- [LLM in Production](paths/llm-in-production.md)
+- [Agent Architecture](paths/agent-architecture.md)
+- [Clean Architecture for AI](paths/clean-architecture-for-ai.md)
+- [EU AI Act Compliance](paths/eu-ai-act-compliance.md)
+
+---
+
 ## Topics
 
 - [Large Language Models](llm/index.md) — cost predictability, LLM FinOps, production deployment
