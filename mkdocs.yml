@@ -1,5 +1,5 @@
 site_name: Working Notes on AI Systems
-site_description: Systems architecture and AI engineering notes — built as I go.
+site_description: Systems architecture and AI engineering notes — from production work.
 site_url: https://milenageorgieva.tech
 
 copyright: Copyright &copy; 2026 <a href="https://milenageorgieva.tech">Milena Georgieva</a>
@@ -21,14 +21,14 @@ theme:
   palette:
     - scheme: default
       primary: white
-      accent: brown
+      accent: amber
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
 
     - scheme: slate
       primary: black
-      accent: brown
+      accent: amber
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -85,49 +85,17 @@ extra_javascript:
   - javascripts/nav-accordion.js
 
 nav:
-  - Handbook:
+  - Notes:
       - Introduction: index.md
-
-      - AI Fundamentals:
-          - What is AI?: handbook/fundamentals/what-is-ai.md
-          - What is an LLM?: handbook/fundamentals/what-is-an-llm.md
-          - Tokens: handbook/fundamentals/tokens.md
-          - Context Window: handbook/fundamentals/context-window.md
-          - Embeddings: handbook/fundamentals/embeddings.md
-
-      - Retrieval-Augmented Generation:
-          - Overview: handbook/rag/index.md
-          - Chunking: handbook/rag/chunking.md
-          - Retrieval: handbook/rag/retrieval.md
-          - Re-ranking: handbook/rag/reranking.md
-          - Vector Databases: handbook/rag/vector-databases.md
-
-      - AI Agents:
-          - Overview: handbook/agents/index.md
-          - Architecture: handbook/agents/architecture.md
-          - Memory: handbook/agents/memory.md
-          - Planning: handbook/agents/planning.md
-          - Tools: handbook/agents/tools.md
-          - Multi-Agent Systems: handbook/agents/multi-agent.md
-
-      - AI Engineering:
-          - Prompt Engineering: handbook/engineering/prompts.md
-          - Evaluation: handbook/engineering/evaluation.md
-          - Guardrails: handbook/engineering/guardrails.md
-          - Observability: handbook/engineering/observability.md
-          - AI Security: handbook/engineering/security.md
-
-      - Machine Learning:
-          - Overview: handbook/ml/index.md
-          - Supervised Learning: handbook/ml/supervised.md
-          - Unsupervised Learning: handbook/ml/unsupervised.md
-          - Feature Engineering: handbook/ml/features.md
-          - Model Evaluation: handbook/ml/evaluation.md
-
-      - Time Series:
-          - Overview: handbook/time-series/index.md
-          - ARIMA: handbook/time-series/arima.md
-          - Prophet: handbook/time-series/prophet.md
-          - Darts: handbook/time-series/darts.md
+      - Large Language Models: llm/index.md
+      - Retrieval-Augmented Generation: rag/index.md
+      - AI Agents: agents/index.md
+      - Prompt Engineering: prompt-engineering/index.md
+      - Vector Databases: vector-databases/index.md
+      - Systems Architecture: ai-architecture/index.md
+      - Machine Learning: machine-learning/index.md
+      - Time Series: time-series/index.md
+      - Frameworks: frameworks/index.md
+      - AI Act: ai-act/index.md
 
   - Contact: contact.md

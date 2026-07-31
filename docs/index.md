@@ -1,10 +1,12 @@
 # Working Notes on AI Systems
 
-Systems architecture and AI engineering notes — built as I go.
+Systems architecture and AI engineering notes — from production work.
 
 ---
 
 ## Welcome
+
+These notes capture architecture decisions, engineering patterns, and the trade-offs that come with production AI systems.
 
 This is a personal project that documents my research, experiments and practical experience in Artificial Intelligence.
 
@@ -24,7 +26,7 @@ If you spot an error, disagree with an approach or have a better idea, I would g
 - AI Agents
 - Machine Learning
 - Time Series Forecasting
-- AI Architecture
+- Systems Architecture
 - AI Evaluation
 - Guardrails
 - Observability

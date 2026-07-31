@@ -26,6 +26,9 @@
        --accent: #c67d5a;
        --accent-hover: #d99575;
 
+       --scroll-thumb: #d4a078;
+       --scroll-thumb-hover: #e4b48a;
+
        --radius: 5px;
    }
    
@@ -763,6 +766,85 @@
 }
 
 /* ==========================================================
+   SCROLLBAR & MATERIAL ACCENT OVERRIDES
+   ========================================================== */
+
+body,
+:root,
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"],
+[data-md-color-accent="amber"],
+[data-md-color-accent="brown"] {
+    --md-accent-fg-color: #d4a078;
+    --md-accent-fg-color--transparent: #d4a0781a;
+    --md-typeset-a-color: #c67d5a;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-thumb) var(--bg);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scroll-thumb);
+    border-radius: 999px;
+    border: 2px solid var(--bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scroll-thumb-hover);
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--bg);
+}
+
+/* Material sidebar scrollbar (uses --md-accent-fg-color on hover) */
+.md-sidebar__scrollwrap {
+    scrollbar-color: var(--scroll-thumb) transparent !important;
+}
+
+.md-sidebar__scrollwrap:hover,
+.md-sidebar__scrollwrap:focus-within {
+    scrollbar-color: var(--scroll-thumb) transparent !important;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+    width: 0.2rem;
+    height: 0.2rem;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+    background-color: #d4a078 !important;
+}
+
+.md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb,
+.md-sidebar__scrollwrap:focus-within::-webkit-scrollbar-thumb {
+    background-color: #d4a078 !important;
+}
+
+.md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb:hover,
+.md-sidebar__scrollwrap:focus-within::-webkit-scrollbar-thumb:hover {
+    background-color: #e4b48a !important;
+}
+
+.md-nav--primary .md-nav__item--active > .md-nav__link,
+.md-nav--primary .md-nav__link--active,
+.md-nav--primary .md-nav__link:focus,
+.md-nav--primary .md-nav__item--active > .md-nav__link:hover {
+    color: var(--accent) !important;
+}
+
+/* ==========================================================
    IMAGES
    ========================================================== */
 
@@ -890,17 +972,17 @@
     display: none !important;
 }
 
-/* Hide redundant top-level "Handbook" active link in sidebar (blue pill) */
+/* Hide redundant top-level "Notes" active link in sidebar (blue pill) */
 .md-nav--primary > .md-nav__list > .md-nav__item:first-child .md-nav__container > a.md-nav__link {
     display: none !important;
 }
 
-/* Hide redundant "Handbook" sticky sidebar title */
+/* Hide redundant "Notes" sticky sidebar title */
 .md-nav--primary nav[data-md-level="1"] > label.md-nav__title {
     display: none !important;
 }
 
-/* Handbook topic sections: collapsible headers with chevron */
+/* Notes topic sections: collapsible headers with chevron */
 .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > label.md-nav__link {
     font-weight: 600;
     color: var(--muted);
