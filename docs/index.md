@@ -27,6 +27,8 @@ Curated reading orders — [start here](paths/index.md).
 
 ---
 
+<!-- recent-posts -->
+
 ## Topics
 
 - [Large Language Models](llm/index.md) — cost predictability, LLM FinOps, production deployment

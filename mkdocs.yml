@@ -80,6 +80,9 @@ plugins:
       length: 30
       abstract_chars_count: 200
 
+hooks:
+  - hooks/recent_posts.py
+
 markdown_extensions:
   - admonition
   - attr_list
