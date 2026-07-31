@@ -7,14 +7,20 @@ If you spot an error, disagree with an approach, or have a better idea, send me 
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_next" id="contact-form-next" value="">
 
-  <label class="contact-form__label" for="contact-name">Name</label>
-  <input class="contact-form__input" id="contact-name" type="text" name="name" required autocomplete="name">
+  <div class="contact-form__field">
+    <label class="contact-form__label" for="contact-name">Name</label>
+    <input class="contact-form__input" id="contact-name" type="text" name="name" required autocomplete="name">
+  </div>
 
-  <label class="contact-form__label" for="contact-email">Email</label>
-  <input class="contact-form__input" id="contact-email" type="email" name="email" required autocomplete="email">
+  <div class="contact-form__field">
+    <label class="contact-form__label" for="contact-email">Email</label>
+    <input class="contact-form__input" id="contact-email" type="email" name="email" required autocomplete="email">
+  </div>
 
-  <label class="contact-form__label" for="contact-message">Message</label>
-  <textarea class="contact-form__input contact-form__textarea" id="contact-message" name="message" rows="6" required></textarea>
+  <div class="contact-form__field">
+    <label class="contact-form__label" for="contact-message">Message</label>
+    <textarea class="contact-form__input contact-form__textarea" id="contact-message" name="message" rows="6" required></textarea>
+  </div>
 
   <button class="contact-form__submit md-button md-button--primary" type="submit">Send message</button>
 </form>

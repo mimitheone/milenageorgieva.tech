@@ -79,6 +79,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/contact-form.css
 
 extra_javascript:
   - javascripts/nav-accordion.js
