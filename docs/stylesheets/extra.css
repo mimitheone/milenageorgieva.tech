@@ -486,9 +486,11 @@
 
     text-align: left;
 
-    font-size: 3.4rem;
+    font-size: clamp(2rem, 3.2vw, 2.85rem) !important;
 
-    white-space: nowrap;
+    white-space: nowrap !important;
+
+    letter-spacing: -0.02em;
 }
 
 .md-content__inner:has(#ai-engineering-handbook) p {
@@ -911,7 +913,8 @@ button,
 }
 
 .md-nav--primary > label.md-nav__title {
-    white-space: nowrap;
+
+    display: none !important;
 }
 
    
@@ -1033,6 +1036,8 @@ button,
     white-space: nowrap !important;
 
     flex-shrink: 0;
+
+    letter-spacing: -0.02em;
 }
 
 .topbar nav {
