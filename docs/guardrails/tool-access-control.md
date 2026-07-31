@@ -1,3 +1,7 @@
+---
+date: 2026-06-12
+---
+
 # Tool Access Control
 
 Secure, policy-driven access to tools and actions.
@@ -62,6 +66,11 @@ The future of enterprise AI will not be "unlimited autonomous agents."
 It will be policy-driven agents operating inside controlled execution environments.
 
 ![Tool Access Control: Secure, policy-driven access to tools and actions](../assets/images/tool-access-control.png)
+
+## Related notes
+
+- [Rule-Based Filters](rule-based-filters.md)
+- [Safety Enforcement](safety-enforcement.md)
 
 ---
 

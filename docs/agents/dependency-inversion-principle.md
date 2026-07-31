@@ -1,3 +1,7 @@
+---
+date: 2026-06-25
+---
+
 # Dependency Inversion Principle
 
 Design for evolution — depend on contracts, not implementations.
@@ -65,6 +69,12 @@ Perhaps the first step toward building self-improving agents isn't teaching them
 Perhaps it's designing an architecture where evolution is actually possible.
 
 ![Self-Improving Agent / Hyper-Agent inspired by the Darwin-Gödel Machine](../assets/images/dependency-inversion-self-improving-agent.png)
+
+## Related notes
+
+- [Darwin Gödel Machine](darwin-godel-machine.md)
+- [Self-Improving Agents](self-improving-agents.md)
+- [Agent Contracts](../ai-architecture/agent-contracts.md)
 
 ---
 

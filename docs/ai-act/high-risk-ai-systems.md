@@ -1,3 +1,7 @@
+---
+date: 2026-05-29
+---
+
 # High-Risk AI Systems
 
 Trustworthy AI — beyond disclaimers and approval buttons.
@@ -81,6 +85,11 @@ Because in high-impact systems, "move fast and break things" is probably the wor
 People + AI > AI alone.
 
 ![EU AI Act — High-Risk AI Systems](../assets/images/high-risk-ai-systems.png)
+
+## Related notes
+
+- [Risk Management](risk-management.md)
+- [Human-in-the-Loop](human-in-the-loop.md)
 
 ---
 

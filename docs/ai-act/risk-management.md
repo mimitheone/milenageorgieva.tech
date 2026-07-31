@@ -1,3 +1,7 @@
+---
+date: 2026-06-01
+---
+
 # Risk Management
 
 Uncertainty is part of the architecture itself.
@@ -171,6 +175,12 @@ It will belong to the companies that know how to build:
  safe, observable, governable and trustworthy AI systems.
 
 ![Risk Management](../assets/images/ai-risk-management.png)
+
+## Related notes
+
+- [High-Risk AI Systems](high-risk-ai-systems.md)
+- [Human-in-the-Loop](human-in-the-loop.md)
+- [Logging & Auditability](logging-and-auditability.md)
 
 ---
 

@@ -1,3 +1,7 @@
+---
+date: 2026-06-13
+---
+
 # Rule-Based Filters
 
 Deterministic controls for predictable AI systems.
@@ -68,6 +72,12 @@ Model-based reasoning for unknown risks.
 Production AI systems need both.
 
 ![Rule-Based Filters: Deterministic controls for predictable AI systems](../assets/images/rule-based-filters.png)
+
+## Related notes
+
+- [Tool Access Control](tool-access-control.md)
+- [Safety Enforcement](safety-enforcement.md)
+- [AI Guardrails](ai-guardrails.md)
 
 ---
 

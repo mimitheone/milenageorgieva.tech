@@ -1,3 +1,7 @@
+---
+date: 2026-06-19
+---
+
 # Agent-to-Agent Protocol
 
 Agent-to-agent communication is the new API layer.
@@ -65,6 +69,10 @@ The future challenge may not be building smarter agents.
 It may be building agents that collaborate safely.
 
 ![A2A: Agent-to-Agent Communication is the New API Layer](../assets/images/agent-to-agent-protocol.png)
+
+## Related notes
+
+- [Agent Communication Patterns](agent-communication-patterns.md)
 
 ---
 

@@ -1,3 +1,7 @@
+---
+date: 2026-06-17
+---
+
 # Safety Enforcement
 
 🛡️ Safety Enforcement: The Layer That Decides When AI Should Say "No"
@@ -68,6 +72,12 @@ Because sometimes the safest answer is:
 "No."
 
 ![Safety Enforcement: The Layer That Decides When AI Should Say No](../assets/images/safety-enforcement.png)
+
+## Related notes
+
+- [AI Guardrails](ai-guardrails.md)
+- [Tool Access Control](tool-access-control.md)
+- [Rule-Based Filters](rule-based-filters.md)
 
 ---
 

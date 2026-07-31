@@ -1,3 +1,7 @@
+---
+date: 2026-06-09
+---
+
 # Relevance Control
 
 From User → LLM → Response to AI runtime engineering.
@@ -53,6 +57,11 @@ That's where reliability, governance, security, observability, routing, memory, 
 Honestly, a lot of modern AI engineering now feels closer to distributed systems + security engineering than classic ML.
 
 ![Relevance Control: Essential guardrail for production AI](../assets/images/relevance-control.png)
+
+## Related notes
+
+- [AI Guardrails](ai-guardrails.md)
+- [Secure RAG](secure-rag.md)
 
 ---
 

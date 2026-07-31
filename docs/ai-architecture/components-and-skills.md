@@ -1,3 +1,7 @@
+---
+date: 2026-06-26
+---
+
 # Components and Skills
 
 Skills are closer to libraries. Components own business capabilities.
@@ -69,6 +73,11 @@ What do you think?
 Would you consider a skill to be closer to a library, while the component represents the business capability that composes those skills?
 
 ![Components and Libraries in Agentic AI](../assets/images/components-and-skills.png)
+
+## Related notes
+
+- [Designing an Agent](../agents/designing-an-agent.md)
+- [Reuse/Release Equivalence Principle](reuse-release-equivalence-principle.md)
 
 ---
 

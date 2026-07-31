@@ -1,3 +1,7 @@
+---
+date: 2026-06-03
+---
+
 # Logging & Auditability
 
 If you cannot inspect it, you probably should not deploy it.
@@ -161,6 +165,12 @@ Because in enterprise AI:
  you probably should not deploy it.
 
 ![Logging & Auditability](../assets/images/logging-and-auditability.png)
+
+## Related notes
+
+- [Risk Management](risk-management.md)
+- [Monitoring & Post-Market Surveillance](monitoring-and-post-market-surveillance.md)
+- [Bias & Fairness Controls](bias-and-fairness-controls.md)
 
 ---
 

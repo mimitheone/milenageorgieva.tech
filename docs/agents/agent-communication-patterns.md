@@ -1,3 +1,7 @@
+---
+date: 2026-06-20
+---
+
 # Agent Communication Patterns
 
 How AI agents collaborate in modern multi-agent systems.
@@ -138,6 +142,11 @@ Supervisor
 - LangGraph
 - CrewAI
 - AutoGen
+
+## Related notes
+
+- [Agent-to-Agent Protocol](agent-to-agent-protocol.md)
+- [Agent Contracts](../ai-architecture/agent-contracts.md)
 
 ---
 

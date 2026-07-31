@@ -1,3 +1,7 @@
+---
+date: 2026-06-08
+---
+
 # Monitoring & Post-Market Surveillance
 
 Launch day is not the end of the lifecycle. It's the start of operational responsibility.
@@ -135,6 +139,12 @@ Because in AI:
 It's the start of operational responsibility.
 
 ![Monitoring & Post-Market Surveillance](../assets/images/monitoring-post-market-surveillance.png)
+
+## Related notes
+
+- [Logging & Auditability](logging-and-auditability.md)
+- [Human-in-the-Loop](human-in-the-loop.md)
+- [High-Risk AI Systems](high-risk-ai-systems.md)
 
 ---
 

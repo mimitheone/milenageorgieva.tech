@@ -1,3 +1,7 @@
+---
+date: 2026-07-01
+---
+
 # Reuse/Release Equivalence Principle
 
 Version cohesive agent capabilities — not just prompts and tools.
@@ -32,6 +36,11 @@ Everything evolves together because everything belongs together.
 REP encourages us to think beyond reusable prompts and tools, and instead define cohesive agent capabilities that can be versioned, tested, and released as a single unit.
 
 ![REP Applied to Agentic AI](../assets/images/reuse-release-equivalence-principle.png)
+
+## Related notes
+
+- [Components and Skills](components-and-skills.md)
+- [Acyclic Dependency Principle](acyclic-dependency-principle.md)
 
 ---
 

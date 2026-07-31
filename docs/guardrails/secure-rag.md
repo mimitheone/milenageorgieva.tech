@@ -1,3 +1,7 @@
+---
+date: 2026-06-16
+---
+
 # Secure RAG
 
 Why security starts before the first embedding.
@@ -88,6 +92,12 @@ Secure RAG is not just about retrieval.
 It's about governing the entire lifecycle of information.
 
 ![Secure RAG: Why Security Starts Before the First Embedding](../assets/images/secure-rag.png)
+
+## Related notes
+
+- [Prompt Injection](prompt-injection.md)
+- [Relevance Control](relevance-control.md)
+- [PII Protection](pii-protection.md)
 
 ---
 

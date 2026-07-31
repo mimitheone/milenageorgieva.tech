@@ -1,3 +1,7 @@
+---
+date: 2026-06-07
+---
+
 # LLM Cost Optimization
 
 Sustainable AI — not cheap AI.
@@ -135,6 +139,10 @@ But the ones that know how to:
  while keeping them observable, controllable and economically sustainable.
 
 ![LLM Cost Optimization](../assets/images/llm-cost-optimization.png)
+
+## Related notes
+
+- [Cost Predictability](llm-cost-predictability.md)
 
 ---
 

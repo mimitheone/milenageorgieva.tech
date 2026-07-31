@@ -1,3 +1,7 @@
+---
+date: 2026-05-31
+---
+
 # Human-in-the-Loop
 
 People + AI > AI alone.
@@ -119,6 +123,12 @@ They'll be the ones designed around:
 People + AI > AI alone.
 
 ![Human-in-the-Loop (HITL)](../assets/images/human-in-the-loop.png)
+
+## Related notes
+
+- [High-Risk AI Systems](high-risk-ai-systems.md)
+- [Risk Management](risk-management.md)
+- [Monitoring & Post-Market Surveillance](monitoring-and-post-market-surveillance.md)
 
 ---
 

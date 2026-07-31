@@ -1,3 +1,7 @@
+---
+date: 2026-07-04
+---
+
 # Designing an Agent
 
 Suppose I have to design an agent.
@@ -47,6 +51,12 @@ If I cannot explain why an agent selected one capability instead of another, I d
 Only after answering those questions would I start writing prompts.
 
 ![AI Agent Architecture](../assets/images/agent-architecture.png)
+
+## Related notes
+
+- [What Is an Agent?](what-is-an-agent.md)
+- [Agent Definition Template](agent-definition-template.md)
+- [Fallback Architecture](fallback-architecture.md)
 
 ---
 

@@ -1,3 +1,7 @@
+---
+date: 2026-07-20
+---
+
 # The Architecture of AI Systems
 
 From reasoning to action — and why responsibility separation matters more than the model.
@@ -43,6 +47,12 @@ Yes, I polish my posts with LLMs. Besides that the ideas, the infographics and a
 ## P.S. after the P.S.
 
 Any suggestion for further books on architecture (after Uncle Bob) will be highly appreciated!
+
+## Related notes
+
+- [Core Design Principles](../agents/core-design-principles.md)
+- [Fallback Architecture](../agents/fallback-architecture.md)
+- [Single Responsibility Principle](single-responsibility-principle.md)
 
 ---
 

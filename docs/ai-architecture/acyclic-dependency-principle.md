@@ -1,3 +1,7 @@
+---
+date: 2026-07-02
+---
+
 # Acyclic Dependency Principle
 
 Avoid dependency cycles. Keep orchestration in one direction.
@@ -45,6 +49,11 @@ That simple separation keeps dependencies clean while still allowing iterative w
 As we design increasingly sophisticated multi-agent systems, I keep finding that many of the solutions already exist in software architecture. We're not replacing architectural principles—we're applying them to a different execution model.
 
 ![Acyclic Dependency Principle (ADP) in Agentic AI](../assets/images/acyclic-dependency-principle.png)
+
+## Related notes
+
+- [Stable Dependencies Principle](stable-dependencies-principle.md)
+- [Reuse/Release Equivalence Principle](reuse-release-equivalence-principle.md)
 
 ---
 

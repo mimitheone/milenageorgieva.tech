@@ -1,3 +1,7 @@
+---
+date: 2026-06-18
+---
+
 # Agent Definition Template
 
 Agent templates, skills.md, and what well-defined agents actually need.
@@ -52,6 +56,11 @@ The more I learn about agentic systems, the more they remind me of classical sof
 What have you learned recently that changed the way you think about AI agents?
 
 ![Agent Definition Template](../assets/images/agent-definition-template.png)
+
+## Related notes
+
+- [What Is an Agent?](what-is-an-agent.md)
+- [Designing an Agent](designing-an-agent.md)
 
 ---
 

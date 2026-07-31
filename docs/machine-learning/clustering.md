@@ -1,3 +1,7 @@
+---
+date: 2026-05-26
+---
+
 # Clustering
 
 Discovering hidden patterns — no labels, just similarity.
@@ -24,6 +28,11 @@ Sometimes the most valuable insight in AI is not prediction.
 It's discovering what humans failed to notice inside the data.
 
 ![Clustering: Discovering Hidden Patterns](../assets/images/clustering.png)
+
+## Related notes
+
+- [K-Nearest Neighbors](knn.md)
+- [ML Algorithms](ml-algorithms.md)
 
 ---
 

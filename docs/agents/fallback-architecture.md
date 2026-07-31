@@ -1,3 +1,7 @@
+---
+date: 2026-06-10
+---
+
 # Fallback Architecture
 
 Maximum reliability under uncertainty — not maximum autonomy.
@@ -176,6 +180,11 @@ It is:
 "maximum reliability under uncertainty."
 
 ![Agent Systems: Fallback Architecture & Resilience](../assets/images/fallback-architecture.png)
+
+## Related notes
+
+- [Core Design Principles](core-design-principles.md)
+- [Designing an Agent](designing-an-agent.md)
 
 ---
 

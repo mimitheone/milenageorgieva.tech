@@ -1,3 +1,7 @@
+---
+date: 2026-05-30
+---
+
 # Prompt Injection
 
 Natural language has officially become an attack surface.
@@ -133,6 +137,11 @@ Not because AI is dangerous by default.
 But because natural language has officially become an attack surface.
 
 ![Prompt Injection](../assets/images/prompt-injection.png)
+
+## Related notes
+
+- [AI Guardrails](ai-guardrails.md)
+- [Secure RAG](secure-rag.md)
 
 ---
 

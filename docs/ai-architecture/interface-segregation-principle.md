@@ -1,3 +1,7 @@
+---
+date: 2026-06-24
+---
+
 # Interface Segregation Principle
 
 Design agent systems with the right contracts — not too monolithic, not too fragmented.
@@ -80,6 +84,11 @@ Not the principle itself.
 The architectural thinking behind it.
 
 ![Design Agent Systems with the Right Contracts](../assets/images/interface-segregation-principle.png)
+
+## Related notes
+
+- [Single Responsibility Principle](single-responsibility-principle.md)
+- [Agent Contracts](agent-contracts.md)
 
 ---
 

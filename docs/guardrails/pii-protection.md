@@ -1,3 +1,7 @@
+---
+date: 2026-06-15
+---
+
 # PII Protection
 
 Use the data. Protect the people behind the data.
@@ -66,6 +70,11 @@ Use the data.
 Protect the people behind the data.
 
 ![PII Protection: Protecting sensitive data in AI systems](../assets/images/pii-protection.png)
+
+## Related notes
+
+- [Secure RAG](secure-rag.md)
+- [AI Guardrails](ai-guardrails.md)
 
 ---
 

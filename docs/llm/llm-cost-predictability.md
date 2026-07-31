@@ -1,3 +1,7 @@
+---
+date: 2026-06-05
+---
+
 # Cost Predictability
 
 The hidden problem in enterprise AI.
@@ -159,6 +163,10 @@ Because eventually,
 all at the same time.
 
 ![The Hidden Problem in Enterprise AI: Cost Predictability](../assets/images/llm-cost-predictability.png)
+
+## Related notes
+
+- [LLM Cost Optimization](llm-cost-optimization.md)
 
 ---
 

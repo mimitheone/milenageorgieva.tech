@@ -1,3 +1,7 @@
+---
+date: 2026-06-06
+---
+
 # What Is an Agent?
 
 A markdown file is not the agent — it is only the instruction sheet.
@@ -161,6 +165,12 @@ It is only the instruction sheet.
 The real agent is the runtime system operating around it.
 
 ![What Is an Agent (Technology)?](../assets/images/what-is-an-agent.png)
+
+## Related notes
+
+- [Designing an Agent](designing-an-agent.md)
+- [Agent Definition Template](agent-definition-template.md)
+- [Core Design Principles](core-design-principles.md)
 
 ---
 

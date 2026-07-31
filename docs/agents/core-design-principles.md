@@ -1,3 +1,7 @@
+---
+date: 2026-06-11
+---
+
 # Core Design Principles
 
 Agent systems are built on architecture — not prompts.
@@ -60,6 +64,12 @@ The future of AI systems is not unlimited autonomy.
 It is a collection of small, focused, replaceable agents working together through clear responsibilities, interfaces, and guardrails.
 
 ![Agent Systems: Core Design Principles](../assets/images/agent-core-design-principles.png)
+
+## Related notes
+
+- [Fallback Architecture](fallback-architecture.md)
+- [What Is an Agent?](what-is-an-agent.md)
+- [The Architecture of AI Systems](../ai-architecture/ai-systems-architecture.md)
 
 ---
 

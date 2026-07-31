@@ -1,3 +1,7 @@
+---
+date: 2026-07-24
+---
+
 # Self-Improving Agents
 
 Beyond reflection: from self-critique to verified self-improvement.
@@ -52,6 +56,12 @@ To me, that is where autonomous agents become truly interesting.
 ## Recommended
 
 - [Darwin Gödel Machine Explained: Self-Improving AI Agents](https://www.youtube.com/watch?v=KptCerr9D5I) — AI Papers Academy
+
+## Related notes
+
+- [Darwin Gödel Machine](darwin-godel-machine.md)
+- [Dependency Inversion Principle](dependency-inversion-principle.md)
+- [Designing an Agent](designing-an-agent.md)
 
 ---
 

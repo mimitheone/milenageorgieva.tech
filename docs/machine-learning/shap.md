@@ -1,3 +1,7 @@
+---
+date: 2026-05-28
+---
+
 # SHAP
 
 Explainable AI — from black box to inspectable predictions.
@@ -79,6 +83,11 @@ Because if humans cannot explain a prediction…
  should we really trust it?
 
 ![Explainable AI (XAI) — SHAP](../assets/images/shap.png)
+
+## Related notes
+
+- [ML Algorithms](ml-algorithms.md)
+- [Overfitting in Business](overfitting-in-business.md)
 
 ---
 

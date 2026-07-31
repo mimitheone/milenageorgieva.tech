@@ -1,3 +1,7 @@
+---
+date: 2026-05-01
+---
+
 # Darwin Gödel Machine
 
 From Transcendence to self-improving code.
@@ -9,6 +13,11 @@ P.S. The image is taken from one of my experiments.
 P.S. after the P.S. Yes, I am excited to discuss technologies and I don't see this as downside of my personality! 🤷🏼‍♀️
 
 ![Darwin Gödel Machine experiment — code evolution tree](../assets/images/darwin-godel-machine-experiment.png)
+
+## Related notes
+
+- [Self-Improving Agents](self-improving-agents.md)
+- [Dependency Inversion Principle](dependency-inversion-principle.md)
 
 ---
 

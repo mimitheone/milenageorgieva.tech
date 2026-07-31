@@ -1,3 +1,7 @@
+---
+date: 2026-07-03
+---
+
 # Stable Dependencies Principle
 
 Depend in the direction of stability — and why the Planner is not the architectural center.
@@ -37,6 +41,11 @@ The architectural center should be formed by the components that everything else
 Perhaps, in Agentic AI, those are the contracts, the guardrails, and the governance layer—not the Planner itself.
 
 ![Stable Dependencies Principle (SDP)](../assets/images/stable-dependencies-principle.png)
+
+## Related notes
+
+- [Acyclic Dependency Principle](acyclic-dependency-principle.md)
+- [Dependency Inversion Principle](../agents/dependency-inversion-principle.md)
 
 ---
 

@@ -1,3 +1,7 @@
+---
+date: 2026-05-27
+---
+
 # K-Nearest Neighbors
 
 Similar things tend to behave similarly.
@@ -49,6 +53,11 @@ future AI practitioners
 Because understanding why a model works matters more than memorizing formulas.
 
 ![K-Nearest Neighbors (KNN)](../assets/images/knn.png)
+
+## Related notes
+
+- [Clustering](clustering.md)
+- [ML Algorithms](ml-algorithms.md)
 
 ---
 

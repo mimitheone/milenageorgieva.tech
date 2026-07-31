@@ -1,3 +1,7 @@
+---
+date: 2026-06-02
+---
+
 # Bias & Fairness Controls
 
 Fairness cannot be added at the end of the project.
@@ -165,6 +169,12 @@ It's about building systems that are:
 People + AI > AI alone.
 
 ![Bias & Fairness Controls](../assets/images/bias-and-fairness-controls.png)
+
+## Related notes
+
+- [Overfitting in Business](../machine-learning/overfitting-in-business.md)
+- [Logging & Auditability](logging-and-auditability.md)
+- [High-Risk AI Systems](high-risk-ai-systems.md)
 
 ---
 

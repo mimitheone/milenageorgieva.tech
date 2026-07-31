@@ -1,3 +1,7 @@
+---
+date: 2026-06-04
+---
+
 # AI Guardrails
 
 Good guardrails do not kill innovation — they make innovation sustainable.
@@ -183,6 +187,12 @@ Good guardrails do not kill innovation.
 They make innovation sustainable.
 
 ![Guardrails](../assets/images/ai-guardrails.png)
+
+## Related notes
+
+- [Prompt Injection](prompt-injection.md)
+- [Safety Enforcement](safety-enforcement.md)
+- [Relevance Control](relevance-control.md)
 
 ---
 

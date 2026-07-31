@@ -1,3 +1,7 @@
+---
+date: 2026-06-22
+---
+
 # Single Responsibility Principle
 
 It's not about how many things an agent does. It's about why it changes.
@@ -71,6 +75,11 @@ The environment is new.
 The principles are not.
 
 ![SRP & Agents](../assets/images/single-responsibility-principle.png)
+
+## Related notes
+
+- [Interface Segregation Principle](interface-segregation-principle.md)
+- [Designing an Agent](../agents/designing-an-agent.md)
 
 ---
 

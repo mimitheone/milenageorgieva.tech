@@ -1,3 +1,7 @@
+---
+date: 2026-05-23
+---
+
 # Overfitting in Business
 
 Signal vs noise — when models memorize instead of learn.
@@ -13,6 +17,11 @@ Machine learning is not just about accuracy. ✅
 It's about understanding whether the model learned the signal — or merely memorized the noise.
 
 ![Underfitting, Good Fit, and Overfitting](../assets/images/overfitting-in-business.png)
+
+## Related notes
+
+- [Bias & Fairness Controls](../ai-act/bias-and-fairness-controls.md)
+- [ML Algorithms](ml-algorithms.md)
 
 ---
 

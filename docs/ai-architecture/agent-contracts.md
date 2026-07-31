@@ -1,3 +1,7 @@
+---
+date: 2026-06-23
+---
+
 # Agent Contracts
 
 From prompt-first to contract-first design.
@@ -91,6 +95,12 @@ Perhaps the next evolution of Agent Engineering won't come from better prompts.
 It may come from rediscovering some of the software architecture principles we've known all along.
 
 ![Agent Contracts: Building Reliable and Replaceable AI Systems](../assets/images/agent-contracts.png)
+
+## Related notes
+
+- [Interface Segregation Principle](interface-segregation-principle.md)
+- [Agent-to-Agent Protocol](../agents/agent-to-agent-protocol.md)
+- [Agent Communication Patterns](../agents/agent-communication-patterns.md)
 
 ---
 
