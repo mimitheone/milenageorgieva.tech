@@ -1,36 +1,61 @@
 site_name: AI Engineering Handbook
-site_description: Practical guide to LLMs, RAG, AI Agents, Machine Learning and AI Architecture
+site_description: Practical handbook for AI Engineering, LLMs, RAG, AI Agents, Machine Learning and Time Series
 site_url: https://milenageorgieva.tech
+
+copyright: Copyright &copy; 2026 <a href="https://milenageorgieva.tech">Milena Georgieva</a>
+
 repo_url: https://github.com/mimitheone/milenageorgieva.tech
 repo_name: GitHub
 
 theme:
   name: material
   language: en
-  logo: assets/images/logo-mark.svg
-  favicon: assets/images/logo-mark.svg
+  custom_dir: overrides
+
+  favicon: assets/images/favicon.ico
+
+  font:
+    text: Inter
+    code: JetBrains Mono
 
   palette:
-    scheme: default
-    primary: indigo
-    accent: indigo
+    - scheme: default
+      primary: white
+      accent: brown
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: black
+      accent: brown
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
+    # Navigation
     - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
     - navigation.indexes
+    - navigation.tracking
+
+    # Table of contents
     - toc.follow
-    - content.code.copy
-    - content.code.annotate
+
+    # Search
     - search.suggest
     - search.highlight
+
+    # Content
+    - content.code.copy
+    - content.code.annotate
 
 plugins:
   - search
   - awesome-pages
+
   - git-revision-date-localized:
       enable_creation_date: true
 
@@ -41,14 +66,68 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - tables
+
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.tabbed:
-      alternate_style: true
   - pymdownx.emoji
 
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/nav-accordion.js
+
 nav:
-  - Home: index.md
+  - Handbook:
+      - Introduction: index.md
+
+      - AI Fundamentals:
+          - What is AI?: handbook/fundamentals/what-is-ai.md
+          - What is an LLM?: handbook/fundamentals/what-is-an-llm.md
+          - Tokens: handbook/fundamentals/tokens.md
+          - Context Window: handbook/fundamentals/context-window.md
+          - Embeddings: handbook/fundamentals/embeddings.md
+
+      - Retrieval-Augmented Generation:
+          - Overview: handbook/rag/index.md
+          - Chunking: handbook/rag/chunking.md
+          - Retrieval: handbook/rag/retrieval.md
+          - Re-ranking: handbook/rag/reranking.md
+          - Vector Databases: handbook/rag/vector-databases.md
+
+      - AI Agents:
+          - Overview: handbook/agents/index.md
+          - Architecture: handbook/agents/architecture.md
+          - Memory: handbook/agents/memory.md
+          - Planning: handbook/agents/planning.md
+          - Tools: handbook/agents/tools.md
+          - Multi-Agent Systems: handbook/agents/multi-agent.md
+
+      - AI Engineering:
+          - Prompt Engineering: handbook/engineering/prompts.md
+          - Evaluation: handbook/engineering/evaluation.md
+          - Guardrails: handbook/engineering/guardrails.md
+          - Observability: handbook/engineering/observability.md
+          - AI Security: handbook/engineering/security.md
+
+      - Machine Learning:
+          - Overview: handbook/ml/index.md
+          - Supervised Learning: handbook/ml/supervised.md
+          - Unsupervised Learning: handbook/ml/unsupervised.md
+          - Feature Engineering: handbook/ml/features.md
+          - Model Evaluation: handbook/ml/evaluation.md
+
+      - Time Series:
+          - Overview: handbook/time-series/index.md
+          - ARIMA: handbook/time-series/arima.md
+          - Prophet: handbook/time-series/prophet.md
+          - Darts: handbook/time-series/darts.md

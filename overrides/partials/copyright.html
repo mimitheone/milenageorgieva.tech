@@ -1,0 +1,15 @@
+{#-
+  Custom footer with quote above copyright
+-#}
+<div class="md-copyright">
+  <div class="md-copyright__lines">
+    <div class="md-copyright__quote">
+      “Tell me and I forget. Teach me and I remember. Involve me and I learn.”
+    </div>
+    {% if config.copyright %}
+      <div class="md-copyright__highlight">
+        {{ config.copyright }}
+      </div>
+    {% endif %}
+  </div>
+</div>

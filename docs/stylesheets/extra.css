@@ -1,0 +1,1029 @@
+/* ==========================================================
+   AI Engineering Handbook
+   Premium Documentation Theme
+   ========================================================== */
+
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
+   /* ==========================================================
+      COLORS
+      ========================================================== */
+   
+   :root {
+   
+       --bg: #171210;
+       --bg2: #1d1715;
+   
+       --panel: #221b19;
+       --panel2: #2a211f;
+   
+       --border: #3b2f2a;
+   
+       --text: #f5efe8;
+       --text-soft: #d2c5ba;
+       --muted: #9f9187;
+   
+       --accent: #d6a27e;
+       --accent-hover: #ebbb95;
+   
+       --radius: 14px;
+   }
+   
+   /* ==========================================================
+      PAGE
+      ========================================================== */
+   
+   html,
+   body,
+   [data-md-color-scheme="slate"] {
+       background: var(--bg);
+   }
+   
+   body {
+       font-family: Inter, sans-serif;
+       color: var(--text-soft);
+   }
+   
+   .md-main,
+   .md-container,
+   .md-main__inner,
+   .md-content,
+   .md-content__inner {
+       background: var(--bg);
+   }
+   
+   /* ==========================================================
+      HEADER
+      ========================================================== */
+   
+   .md-header {
+   
+       background: rgba(23,18,16,.95);
+   
+       border-bottom:1px solid var(--border);
+   
+       backdrop-filter: blur(12px);
+   
+       box-shadow:none;
+   }
+   
+   .md-header__title{
+   
+       font-weight:600;
+   
+       color:var(--text);
+   }
+   
+   .md-header__button{
+   
+       color:var(--text-soft);
+   }
+   
+   /* hide ugly tabs */
+   
+   .md-tabs{
+   
+       display:none;
+   }
+   
+   /* ==========================================================
+      CUSTOM TOP BAR
+      ========================================================== */
+   
+   .landing-nav{
+   
+       background:var(--bg2);
+   
+       border-bottom:1px solid var(--border);
+   }
+   
+   .landing-inner{
+   
+       max-width:1400px;
+   
+       margin:auto;
+   
+       padding:16px 34px;
+   
+       display:flex;
+   
+       justify-content:space-between;
+   
+       align-items:center;
+   }
+   
+   .landing-nav .brand{
+   
+       font-family:"Libre Baskerville",serif;
+   
+       font-size:1.35rem;
+   
+       color:var(--text);
+   
+       text-decoration:none;
+   }
+   
+   .landing-nav nav{
+   
+       display:flex;
+   
+       gap:34px;
+   }
+   
+   .landing-nav nav a{
+   
+       color:var(--muted);
+   
+       text-decoration:none;
+   
+       font-size:.95rem;
+   
+       transition:.25s;
+   }
+   
+   .landing-nav nav a:hover{
+   
+       color:var(--accent);
+   }
+   
+   /* ==========================================================
+      SIDEBAR
+      ========================================================== */
+   
+   .md-sidebar{
+   
+       background:var(--bg);
+   }
+   
+   .md-sidebar--primary{
+   
+       border-right:1px solid var(--border);
+   }
+   
+   .md-sidebar--secondary{
+   
+       border-left:1px solid var(--border);
+   }
+   
+   .md-nav__title{
+   
+       background:none;
+   
+       color:var(--text);
+   
+       font-weight:700;
+   
+       letter-spacing:.08em;
+   
+       text-transform:uppercase;
+   
+       font-size:.72rem;
+   }
+   
+   .md-nav__link{
+   
+       color:var(--muted);
+   
+       border-radius:8px;
+   
+       transition:.2s;
+   
+       padding:.45rem .7rem;
+   }
+   
+   .md-nav__link:hover{
+   
+       background:rgba(255,255,255,.03);
+   
+       color:var(--text);
+   }
+   
+   .md-nav__link--active{
+   
+       color:var(--accent);
+   
+       background:rgba(214,162,126,.10);
+   }
+   
+   /* ==========================================================
+      CONTENT
+      ========================================================== */
+   
+   .md-content{
+   
+       max-width:none;
+   }
+   
+   .md-content__inner{
+   
+       max-width:760px;
+   
+       margin:auto;
+   
+       padding-top:3rem;
+   
+       padding-bottom:5rem;
+   }
+   
+   .md-typeset{
+   
+       color:var(--text-soft);
+   
+       font-size:1.03rem;
+   
+       line-height:1.9;
+   }
+   
+   .md-typeset h1{
+   
+       font-family:"Libre Baskerville",serif;
+   
+       color:var(--text);
+   
+       font-size:3.4rem;
+   
+       line-height:1.08;
+   
+       margin-bottom:2rem;
+   }
+   
+   .md-typeset h2{
+   
+       font-family:"Libre Baskerville",serif;
+   
+       color:var(--text);
+   
+       margin-top:4rem;
+   
+       margin-bottom:1rem;
+   
+       font-size:2rem;
+   }
+   
+   .md-typeset h3{
+   
+       color:var(--text);
+   
+       margin-top:2.5rem;
+   }
+   
+   .md-typeset p{
+   
+       color:var(--text-soft);
+   }
+   
+   .md-typeset strong{
+   
+       color:var(--text);
+   }
+   
+   .md-typeset hr{
+   
+       border:none;
+   
+       border-top:1px solid var(--border);
+   
+       margin:4rem 0;
+   }
+/* ==========================================================
+   INLINE CODE
+   ========================================================== */
+
+   .md-typeset code {
+
+    color: var(--accent);
+
+    background: rgba(214,162,126,.10);
+
+    border: 1px solid rgba(214,162,126,.18);
+
+    border-radius: 6px;
+
+    padding: .18rem .42rem;
+
+    font-size: .90em;
+}
+
+/* ==========================================================
+   CODE BLOCKS
+   ========================================================== */
+
+.highlight,
+.md-typeset pre {
+
+    background: var(--panel);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    box-shadow: none;
+}
+
+.highlight pre,
+.md-typeset pre code {
+
+    background: transparent;
+
+    color: var(--text-soft);
+}
+
+.highlighttable,
+.highlighttable td{
+
+    background:var(--panel);
+}
+
+/* ==========================================================
+   TABLES
+   ========================================================== */
+
+.md-typeset table:not([class]){
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:var(--panel);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+}
+
+.md-typeset table:not([class]) th{
+
+    background:var(--panel2);
+
+    color:var(--text);
+
+    padding:.9rem;
+}
+
+.md-typeset table:not([class]) td{
+
+    padding:.9rem;
+
+    border-top:1px solid var(--border);
+
+    color:var(--text-soft);
+}
+
+/* ==========================================================
+   BLOCKQUOTE
+   ========================================================== */
+
+.md-typeset blockquote{
+
+    border-left:4px solid var(--accent);
+
+    background:rgba(214,162,126,.06);
+
+    padding:1rem 1.5rem;
+
+    border-radius:0 12px 12px 0;
+}
+
+/* ==========================================================
+   LINKS
+   ========================================================== */
+
+.md-typeset a{
+
+    color:var(--accent);
+
+    text-decoration:none;
+}
+
+.md-typeset a:hover{
+
+    color:var(--accent-hover);
+}
+
+/* ==========================================================
+   LISTS
+   ========================================================== */
+
+.md-typeset ul li::marker{
+
+    color:var(--accent);
+}
+
+.md-typeset ol li::marker{
+
+    color:var(--accent);
+}
+
+/* ==========================================================
+   ADMONITIONS
+   ========================================================== */
+
+.md-typeset .admonition{
+
+    background:var(--panel);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    box-shadow:none;
+}
+
+/* ==========================================================
+   BUTTONS
+   ========================================================== */
+
+.md-typeset .md-button{
+
+    border-radius:10px;
+
+    border:1px solid var(--border);
+
+    background:var(--panel);
+
+    color:var(--text);
+
+    transition:.2s;
+}
+
+.md-typeset .md-button:hover{
+
+    background:var(--panel2);
+
+    border-color:var(--accent);
+}
+
+.md-typeset .md-button--primary{
+
+    background:var(--accent);
+
+    color:#1b1512;
+
+    border-color:var(--accent);
+}
+
+.md-typeset .md-button--primary:hover{
+
+    background:var(--accent-hover);
+}
+
+/* ==========================================================
+   HOME PAGE
+   ========================================================== */
+
+   body[data-md-page="index"] .md-content__inner{
+
+    max-width:760px;
+
+    padding-top:2rem;
+}
+
+body[data-md-page="index"] h1{
+
+    text-align:left;
+
+    font-size:3.4rem;
+}
+
+body[data-md-page="index"] p{
+
+    text-align:left;
+
+    max-width:none;
+
+    margin:0 0 1rem;
+}
+
+/* ==========================================================
+   CARDS
+   ========================================================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:24px;
+
+    margin-top:70px;
+}
+
+.card{
+
+    padding:28px;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    background:var(--panel);
+
+    transition:.25s;
+}
+
+.card:hover{
+
+    border-color:var(--accent);
+
+    transform:translateY(-3px);
+}
+
+.card h3{
+
+    margin-top:0;
+
+    color:var(--text);
+
+    font-family:"Libre Baskerville",serif;
+}
+
+.card p{
+
+    text-align:left !important;
+
+    margin:0;
+}
+/* ==========================================================
+   SEARCH
+   ========================================================== */
+
+   .md-search__form {
+
+    background: var(--panel);
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+
+    box-shadow: none;
+}
+
+.md-search__input {
+
+    color: var(--text);
+}
+
+.md-search__input::placeholder {
+
+    color: var(--muted);
+}
+
+.md-search-result {
+
+    background: var(--panel);
+}
+
+.md-search-result__meta {
+
+    color: var(--muted);
+}
+
+/* ==========================================================
+   TOC
+   ========================================================== */
+
+.md-nav--secondary .md-nav__link {
+
+    font-size: .82rem;
+
+    color: var(--muted);
+}
+
+.md-nav--secondary .md-nav__link:hover {
+
+    color: var(--text);
+}
+
+.md-nav--secondary .md-nav__link--active {
+
+    color: var(--accent);
+}
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+.md-footer,
+.md-footer-meta {
+
+    background: var(--bg);
+
+    border-top: 1px solid var(--border);
+}
+
+.md-footer__title,
+.md-footer__direction,
+.md-footer-meta__inner,
+.md-copyright {
+
+    color: var(--muted);
+}
+
+.md-copyright {
+
+    width: 100%;
+}
+
+.md-footer a {
+
+    color: var(--text-soft);
+}
+
+.md-footer a:hover {
+
+    color: var(--accent);
+}
+
+.md-copyright__lines {
+
+    line-height: 1.25;
+
+    width: 100%;
+}
+
+.md-copyright__quote,
+.md-copyright__highlight {
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+}
+
+.md-copyright__quote {
+
+    font-style: italic;
+
+    text-align: left;
+
+    color: var(--muted);
+}
+
+.md-copyright__highlight {
+
+    text-align: right;
+}
+
+/* ==========================================================
+   SCROLLBAR
+   ========================================================== */
+
+* {
+
+    scrollbar-width: thin;
+
+    scrollbar-color: var(--border) var(--bg);
+}
+
+::-webkit-scrollbar {
+
+    width: 10px;
+
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+
+    background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: var(--border);
+
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: var(--accent);
+}
+
+/* ==========================================================
+   IMAGES
+   ========================================================== */
+
+.md-typeset img {
+
+    border-radius: var(--radius);
+
+    border: 1px solid var(--border);
+}
+
+/* ==========================================================
+   HORIZONTAL RULE
+   ========================================================== */
+
+.md-typeset hr {
+
+    border-top: 1px solid var(--border);
+}
+
+/* ==========================================================
+   TRANSITIONS
+   ========================================================== */
+
+a,
+button,
+.md-button,
+.card,
+.md-nav__link {
+
+    transition: all .22s ease;
+}
+
+/* ==========================================================
+   MOBILE
+   ========================================================== */
+
+@media (max-width: 1220px) {
+
+    .landing-inner {
+
+        padding: 14px 22px;
+    }
+
+    .md-content__inner {
+
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .landing-inner {
+
+        flex-direction: column;
+
+        gap: 14px;
+    }
+
+    .landing-nav nav {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 18px;
+    }
+
+    .cards {
+
+        grid-template-columns: repeat(2, minmax(0,1fr));
+    }
+
+    .md-sidebar--secondary {
+
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .cards {
+
+        grid-template-columns: 1fr;
+    }
+
+    .md-typeset h1 {
+
+        font-size: 2.8rem;
+    }
+
+    .md-typeset h2 {
+
+        font-size: 1.8rem;
+    }
+
+    .md-content__inner {
+
+        max-width: calc(100% - 32px);
+
+        padding-top: 2rem;
+    }
+
+    .landing-nav .brand {
+
+        font-size: 1.15rem;
+    }
+
+    .landing-nav nav {
+
+        gap: 12px;
+    }
+}
+
+/* ==========================================================
+   REMOVE MATERIAL CLUTTER
+   ========================================================== */
+
+.md-top,
+.md-source,
+.md-header__topic:first-child {
+
+    display: none;
+}
+
+/* ==========================================================
+   NICE TEXT SELECTION
+   ========================================================== */
+
+::selection {
+
+    background: rgba(214,162,126,.35);
+
+    color: white;
+}
+
+/* ==========================================================
+   SIDEBAR / TOC HEADERS
+   ========================================================== */
+
+   .md-sidebar .md-nav__title {
+
+    background: transparent !important;
+
+    box-shadow: none !important;
+
+    border: none !important;
+
+    color: var(--text) !important;
+}
+
+.md-sidebar .md-nav__title::before,
+.md-sidebar .md-nav__title::after {
+
+    display: none !important;
+}
+
+/* Hide redundant top-level "Handbook" active link in sidebar (blue pill) */
+.md-nav--primary > .md-nav__list > .md-nav__item:first-child .md-nav__container > a.md-nav__link {
+    display: none !important;
+}
+
+/* Handbook topic sections: collapsible headers with chevron */
+.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > label.md-nav__link {
+    font-weight: 600;
+    color: var(--muted);
+}
+
+.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > input.md-nav__toggle:checked + label.md-nav__link {
+    color: var(--accent);
+}
+
+.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > label.md-nav__link .md-nav__icon {
+    color: inherit;
+}
+
+/* ==========================================================
+   HEADER BRANDING
+   ========================================================== */
+
+/* Hide default Material logo in mobile drawer when no custom logo is set */
+.md-nav__button.md-logo {
+    display: none;
+}
+
+   
+   .md-header__title {
+   
+       font-family: "Libre Baskerville", serif;
+   
+       font-size: 1.05rem;
+   
+       font-weight: 700;
+   
+       letter-spacing: .02em;
+   
+       color: var(--text);
+   }
+   
+   .md-header__inner {
+   
+       max-width: 1500px;
+   
+       margin: 0 auto;
+   
+       padding: 0 24px;
+   
+       height: 64px;
+   }
+   
+   .md-header {
+   
+       height: 64px;
+   }
+   /* ==========================================================
+   TYPOGRAPHY
+   ========================================================== */
+
+.md-typeset {
+
+    font-size: 1.08rem;
+
+    line-height: 1.95;
+}
+
+.md-typeset h2 {
+
+    font-size: 2.2rem;
+
+    margin-top: 4.5rem;
+
+    margin-bottom: 1.25rem;
+}
+
+.md-typeset h3 {
+
+    font-size: 1.35rem;
+
+    margin-top: 3rem;
+
+    margin-bottom: .8rem;
+
+    font-weight: 600;
+}
+
+.md-typeset p {
+
+    margin-bottom: 1.35rem;
+}
+
+/* ==========================================================
+   CUSTOM TOP BAR
+   ========================================================== */
+
+   .md-header {
+
+    display: none;
+}
+
+.topbar {
+
+    height: 72px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 36px;
+
+    background: #120d0c;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.topbar-left {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 48px;
+}
+
+.brand {
+
+    font-family: "Libre Baskerville", serif;
+
+    font-size: 1.15rem;
+
+    font-weight: 700;
+
+    line-height: 1.1;
+
+    color: var(--text);
+
+    text-decoration: none;
+
+    white-space: nowrap;
+}
+
+.topbar nav {
+
+    display: flex;
+
+    gap: 36px;
+}
+
+.topbar nav a {
+
+    color: var(--muted);
+
+    text-decoration: none;
+
+    padding-bottom: 10px;
+
+    border-bottom: 2px solid transparent;
+}
+
+.topbar nav a:hover {
+
+    color: var(--accent);
+
+    border-color: var(--accent);
+}
