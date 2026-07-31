@@ -41,9 +41,6 @@ theme:
     - navigation.indexes
     - navigation.tracking
 
-    # Table of contents
-    - toc.follow
-
     # Search
     - search.suggest
     - search.highlight
