@@ -128,3 +128,5 @@ nav:
           - ARIMA: handbook/time-series/arima.md
           - Prophet: handbook/time-series/prophet.md
           - Darts: handbook/time-series/darts.md
+
+  - Contact: contact.md

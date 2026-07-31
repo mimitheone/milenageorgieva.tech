@@ -652,6 +652,7 @@
 
 .md-copyright__author,
 .md-copyright__quote,
+.md-copyright__contact,
 .md-copyright__highlight {
 
     margin: 0 !important;
@@ -678,6 +679,100 @@
 .md-copyright__highlight {
 
     text-align: right;
+}
+
+.md-copyright__contact {
+
+    text-align: right;
+}
+
+/* ==========================================================
+   CONTACT FORM
+   ========================================================== */
+
+.contact-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0.65rem;
+
+    max-width: 520px;
+
+    margin-top: 2rem;
+}
+
+.contact-form__label {
+
+    font-size: 0.85rem;
+
+    font-weight: 600;
+
+    color: var(--text);
+
+    margin-top: 0.75rem;
+}
+
+.contact-form__input {
+
+    width: 100%;
+
+    padding: 0.75rem 0.9rem;
+
+    border: 1px solid var(--border);
+
+    border-radius: 10px;
+
+    background: var(--panel);
+
+    color: var(--text);
+
+    font-family: Inter, sans-serif;
+
+    font-size: 1rem;
+
+    line-height: 1.5;
+
+    transition: border-color 0.2s ease;
+}
+
+.contact-form__input:focus {
+
+    outline: none;
+
+    border-color: var(--accent);
+}
+
+.contact-form__textarea {
+
+    resize: vertical;
+
+    min-height: 140px;
+}
+
+.contact-form__submit {
+
+    align-self: flex-start;
+
+    margin-top: 1rem;
+
+    cursor: pointer;
+}
+
+.contact-form__notice {
+
+    padding: 0.85rem 1rem;
+
+    margin-bottom: 1rem;
+
+    border: 1px solid rgba(214, 162, 126, 0.35);
+
+    border-radius: 10px;
+
+    background: rgba(214, 162, 126, 0.1);
+
+    color: var(--text);
 }
 
 /* ==========================================================
