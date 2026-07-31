@@ -91,16 +91,62 @@ extra_javascript:
 nav:
   - Notes:
       - Introduction: index.md
-      - Large Language Models: llm/index.md
+      - Large Language Models:
+          - Overview: llm/index.md
+          - Cost Predictability: llm/llm-cost-predictability.md
+          - LLM Cost Optimization: llm/llm-cost-optimization.md
       - Retrieval-Augmented Generation: rag/index.md
-      - AI Agents: agents/index.md
+      - AI Agents:
+          - Overview: agents/index.md
+          - Darwin Gödel Machine: agents/darwin-godel-machine.md
+          - What Is an Agent?: agents/what-is-an-agent.md
+          - Fallback Architecture: agents/fallback-architecture.md
+          - Core Design Principles: agents/core-design-principles.md
+          - Agent Definition Template: agents/agent-definition-template.md
+          - Agent-to-Agent Protocol: agents/agent-to-agent-protocol.md
+          - Agent Communication Patterns: agents/agent-communication-patterns.md
+          - Dependency Inversion Principle: agents/dependency-inversion-principle.md
+          - Designing an Agent: agents/designing-an-agent.md
+          - Self-Improving Agents: agents/self-improving-agents.md
       - Prompt Engineering: prompt-engineering/index.md
       - Vector Databases: vector-databases/index.md
-      - Systems Architecture: ai-architecture/index.md
-      - Machine Learning: machine-learning/index.md
+      - Systems Architecture:
+          - Overview: ai-architecture/index.md
+          - Single Responsibility Principle: ai-architecture/single-responsibility-principle.md
+          - Agent Contracts: ai-architecture/agent-contracts.md
+          - Interface Segregation Principle: ai-architecture/interface-segregation-principle.md
+          - Components and Skills: ai-architecture/components-and-skills.md
+          - Reuse/Release Equivalence Principle: ai-architecture/reuse-release-equivalence-principle.md
+          - Acyclic Dependency Principle: ai-architecture/acyclic-dependency-principle.md
+          - Stable Dependencies Principle: ai-architecture/stable-dependencies-principle.md
+          - The Architecture of AI Systems: ai-architecture/ai-systems-architecture.md
+      - Machine Learning:
+          - Overview: machine-learning/index.md
+          - Overfitting in Business: machine-learning/overfitting-in-business.md
+          - Clustering: machine-learning/clustering.md
+          - K-Nearest Neighbors: machine-learning/knn.md
+          - SHAP: machine-learning/shap.md
+          - ML Algorithms: machine-learning/ml-algorithms.md
       - Time Series: time-series/index.md
       - Frameworks: frameworks/index.md
-      - AI Act: ai-act/index.md
+      - Guardrails:
+          - Overview: guardrails/index.md
+          - Prompt Injection: guardrails/prompt-injection.md
+          - AI Guardrails: guardrails/ai-guardrails.md
+          - Relevance Control: guardrails/relevance-control.md
+          - Tool Access Control: guardrails/tool-access-control.md
+          - Rule-Based Filters: guardrails/rule-based-filters.md
+          - PII Protection: guardrails/pii-protection.md
+          - Secure RAG: guardrails/secure-rag.md
+          - Safety Enforcement: guardrails/safety-enforcement.md
+      - AI Act:
+          - Overview: ai-act/index.md
+          - High-Risk AI Systems: ai-act/high-risk-ai-systems.md
+          - Human-in-the-Loop: ai-act/human-in-the-loop.md
+          - Risk Management: ai-act/risk-management.md
+          - Bias & Fairness Controls: ai-act/bias-and-fairness-controls.md
+          - Logging & Auditability: ai-act/logging-and-auditability.md
+          - Monitoring & Post-Market Surveillance: ai-act/monitoring-and-post-market-surveillance.md
 
   - Contact: contact.md
   - Bio: bio.md

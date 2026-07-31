@@ -18,17 +18,14 @@ If you spot an error, disagree with an approach or have a better idea, I would g
 
 ## Topics
 
-Structure in progress — sections will fill in as I publish.
-
-- Large Language Models (LLMs)
-- Prompt Engineering
-- Embeddings
-- Retrieval-Augmented Generation (RAG)
-- Vector Databases
-- AI Agents
-- Machine Learning
-- Time Series Forecasting
-- Systems Architecture
-- AI Evaluation
-- Guardrails
-- Observability
+- [Large Language Models](llm/index.md) — cost predictability, LLM FinOps, production deployment
+- [Retrieval-Augmented Generation (RAG)](rag/index.md)
+- [AI Agents](agents/index.md) — architecture, protocols, design principles, self-improvement
+- [Prompt Engineering](prompt-engineering/index.md)
+- [Vector Databases](vector-databases/index.md)
+- [Systems Architecture](ai-architecture/index.md) — SOLID principles for AI systems
+- [Machine Learning](machine-learning/index.md) — algorithms, clustering, KNN, SHAP, fairness
+- [Guardrails](guardrails/index.md) — prompt injection, safety layers, secure RAG
+- [AI Act](ai-act/index.md) — EU AI Act, risk management, HITL, logging, auditability
+- [Time Series](time-series/index.md)
+- [Frameworks](frameworks/index.md)
