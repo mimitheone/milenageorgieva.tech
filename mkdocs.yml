@@ -95,7 +95,6 @@ nav:
           - Overview: llm/index.md
           - Cost Predictability: llm/llm-cost-predictability.md
           - LLM Cost Optimization: llm/llm-cost-optimization.md
-      - Retrieval-Augmented Generation: rag/index.md
       - AI Agents:
           - Overview: agents/index.md
           - Darwin Gödel Machine: agents/darwin-godel-machine.md
@@ -108,8 +107,6 @@ nav:
           - Dependency Inversion Principle: agents/dependency-inversion-principle.md
           - Designing an Agent: agents/designing-an-agent.md
           - Self-Improving Agents: agents/self-improving-agents.md
-      - Prompt Engineering: prompt-engineering/index.md
-      - Vector Databases: vector-databases/index.md
       - Systems Architecture:
           - Overview: ai-architecture/index.md
           - Single Responsibility Principle: ai-architecture/single-responsibility-principle.md
@@ -127,8 +124,6 @@ nav:
           - K-Nearest Neighbors: machine-learning/knn.md
           - SHAP: machine-learning/shap.md
           - ML Algorithms: machine-learning/ml-algorithms.md
-      - Time Series: time-series/index.md
-      - Frameworks: frameworks/index.md
       - Guardrails:
           - Overview: guardrails/index.md
           - Prompt Injection: guardrails/prompt-injection.md
