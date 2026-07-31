@@ -82,6 +82,7 @@ plugins:
 
 hooks:
   - hooks/recent_posts.py
+  - hooks/cache_bust.py
 
 markdown_extensions:
   - admonition
