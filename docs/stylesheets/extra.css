@@ -863,7 +863,7 @@ body,
     margin-top: 2rem;
     padding-top: 1rem;
     border-top: 1px solid var(--border);
-    color: var(--text-soft) !important;
+    color: #d4cbc4 !important;
     font-size: 0.85rem;
     opacity: 1 !important;
 }
@@ -871,7 +871,8 @@ body,
 .md-source-file__fact,
 .md-source-file .git-revision-date-localized-plugin,
 .md-source-file .git-revision-date-localized-plugin-date {
-    color: var(--text-soft) !important;
+    color: #d4cbc4 !important;
+    -webkit-text-fill-color: #d4cbc4 !important;
     opacity: 1 !important;
 }
 
@@ -882,11 +883,11 @@ body,
 }
 
 .md-source-file .md-icon {
-    color: var(--muted) !important;
+    color: #9a8f88 !important;
 }
 
 .md-source-file .md-icon svg {
-    fill: currentColor !important;
+    fill: #9a8f88 !important;
     opacity: 1 !important;
 }
 
@@ -1030,35 +1031,44 @@ body,
 
 /* Nested handbook sections (LLM, Agents, …): title + chevron in one row */
 .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container {
-    display: flex !important;
-    flex-direction: row;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
     width: 100%;
     margin-top: 0;
+    column-gap: 0.25rem;
 }
 
 .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > a.md-nav__link {
-    display: block;
-    flex: 1 1 auto;
-    min-width: min-content;
+    display: block !important;
+    grid-column: 1;
+    width: 100%;
+    min-width: 0;
     margin-top: 0;
     overflow: visible;
     text-overflow: unset;
     white-space: nowrap;
     font-weight: 600;
-    color: var(--muted);
+    color: #9a8f88 !important;
+    -webkit-text-fill-color: #9a8f88 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > a.md-nav__link .md-ellipsis {
     overflow: visible;
     text-overflow: unset;
+    color: inherit !important;
+    -webkit-text-fill-color: inherit !important;
 }
 
 .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > a.md-nav__link:hover {
-    color: var(--text);
+    color: #f5efe8 !important;
+    -webkit-text-fill-color: #f5efe8 !important;
 }
 
 .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > label.md-nav__link {
+    grid-column: 2;
     flex: 0 0 auto;
     margin-top: 0;
     padding-right: 0.35rem;
@@ -1069,7 +1079,8 @@ body,
 }
 
 .md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > input.md-nav__toggle:checked ~ .md-nav__link.md-nav__container > a.md-nav__link {
-    color: var(--accent);
+    color: #d4a078 !important;
+    -webkit-text-fill-color: #d4a078 !important;
 }
 
 /* ==========================================================
