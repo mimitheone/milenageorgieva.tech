@@ -15,7 +15,7 @@ theme:
   favicon: assets/images/favicon.ico
 
   font:
-    text: Inter
+    text: IBM Plex Sans
     code: JetBrains Mono
 
   palette:

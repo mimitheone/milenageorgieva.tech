@@ -3,29 +3,29 @@
    Premium Documentation Theme
    ========================================================== */
 
-   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 
    /* ==========================================================
       COLORS
       ========================================================== */
    
    :root {
-   
-       --bg: #171210;
-       --bg2: #1d1715;
-   
-       --panel: #221b19;
-       --panel2: #2a211f;
-   
-       --border: #3b2f2a;
-   
+
+       --bg: #181211;
+       --bg2: #1e1816;
+
+       --panel: #231c1a;
+       --panel2: #2b221f;
+
+       --border: #3c302b;
+
        --text: #f5efe8;
-       --text-soft: #d2c5ba;
-       --muted: #9f9187;
-   
-       --accent: #d6a27e;
-       --accent-hover: #ebbb95;
-   
+       --text-soft: #d3c6bb;
+       --muted: #a09389;
+
+       --accent: #d4a078;
+       --accent-hover: #e9b892;
+
        --radius: 14px;
    }
    
@@ -40,7 +40,7 @@
    }
    
    body {
-       font-family: Inter, sans-serif;
+       font-family: "IBM Plex Sans", sans-serif;
        color: var(--text-soft);
    }
    
@@ -58,7 +58,7 @@
    
    .md-header {
    
-       background: rgba(23,18,16,.95);
+       background: rgba(24,18,17,.95);
    
        border-bottom:1px solid var(--border);
    
@@ -114,9 +114,13 @@
    
    .landing-nav .brand{
    
-       font-family:"Libre Baskerville",serif;
+       font-family:"IBM Plex Sans", sans-serif;
    
        font-size:1.35rem;
+
+       font-weight:600;
+
+       letter-spacing:-0.02em;
    
        color:var(--text);
    
@@ -204,7 +208,7 @@
    
        color:var(--accent);
    
-       background:rgba(214,162,126,.10);
+       background:rgba(212,160,120,.10);
    }
    
    /* ==========================================================
@@ -238,11 +242,15 @@
    
 .md-typeset h1{
 
-    font-family:"Libre Baskerville",serif;
+    font-family:"IBM Plex Sans", sans-serif;
 
     color:var(--text);
 
     font-size:3.4rem;
+
+    font-weight:600;
+
+    letter-spacing:-0.025em;
 
     line-height:1.08;
 
@@ -251,10 +259,14 @@
    
    .md-typeset h2{
    
-       font-family:"Libre Baskerville",serif;
+       font-family:"IBM Plex Sans", sans-serif;
    
        color:var(--text);
    
+       font-weight:600;
+
+       letter-spacing:-0.02em;
+
        margin-top:4rem;
    
        margin-bottom:1rem;
@@ -265,6 +277,10 @@
    .md-typeset h3{
    
        color:var(--text);
+
+       font-weight:600;
+
+       letter-spacing:-0.015em;
    
        margin-top:2.5rem;
    }
@@ -295,9 +311,9 @@
 
     color: var(--accent);
 
-    background: rgba(214,162,126,.10);
+    background: rgba(212,160,120,.10);
 
-    border: 1px solid rgba(214,162,126,.18);
+    border: 1px solid rgba(212,160,120,.18);
 
     border-radius: 6px;
 
@@ -381,7 +397,7 @@
 
     border-left:4px solid var(--accent);
 
-    background:rgba(214,162,126,.06);
+    background:rgba(212,160,120,.06);
 
     padding:1rem 1.5rem;
 
@@ -543,7 +559,7 @@
 
     color:var(--text);
 
-    font-family:"Libre Baskerville",serif;
+    font-family:"IBM Plex Sans", sans-serif;
 }
 
 .card p{
@@ -742,7 +758,7 @@
 
     color: var(--text);
 
-    font-family: Inter, sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 
     font-size: 1rem;
 
@@ -787,11 +803,11 @@
 
     margin-bottom: 1rem;
 
-    border: 1px solid rgba(214, 162, 126, 0.35);
+    border: 1px solid rgba(212, 160, 120, 0.35);
 
     border-radius: 10px;
 
-    background: rgba(214, 162, 126, 0.1);
+    background: rgba(212, 160, 120, 0.1);
 
     color: var(--text);
 }
@@ -969,7 +985,7 @@ button,
 
 ::selection {
 
-    background: rgba(214,162,126,.35);
+    background: rgba(212,160,120,.35);
 
     color: white;
 }
@@ -1036,7 +1052,7 @@ button,
    
    .md-header__title {
    
-       font-family: "Libre Baskerville", serif;
+       font-family: "IBM Plex Sans", sans-serif;
    
        font-size: 1.05rem;
    
@@ -1119,7 +1135,7 @@ button,
 
     padding: 0 36px;
 
-    background: #120d0c;
+    background: #130e0d;
 
     border-bottom: 1px solid var(--border);
 }
@@ -1137,7 +1153,7 @@ button,
 
 .brand {
 
-    font-family: "Libre Baskerville", serif;
+    font-family: "IBM Plex Sans", sans-serif;
 
     font-size: 1.15rem;
 
