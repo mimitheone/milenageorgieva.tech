@@ -3,7 +3,7 @@
 If you spot an error, disagree with an approach, or have a better idea, send me a message.
 
 <form class="contact-form" action="https://formsubmit.co/contact@milenageorgieva.tech" method="POST">
-  <input type="hidden" name="_subject" value="AI Engineering Handbook — new message">
+  <input type="hidden" name="_subject" value="Working Notes on AI Systems — new message">
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_next" id="contact-form-next" value="">
 

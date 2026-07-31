@@ -1,6 +1,6 @@
-# AI Engineering Handbook
+# Working Notes on AI Systems
 
-Notes from my AI engineering work — built as I go.
+Systems architecture and AI engineering notes — built as I go.
 
 ---
 

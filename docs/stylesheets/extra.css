@@ -1,5 +1,5 @@
 /* ==========================================================
-   AI Engineering Handbook
+   Working Notes on AI Systems
    Premium Documentation Theme
    ========================================================== */
 
@@ -483,25 +483,23 @@
    HOME PAGE
    ========================================================== */
 
-.md-content__inner:has(#ai-engineering-handbook) {
+.md-content__inner:has(#working-notes-on-ai-systems) {
 
     max-width: 760px;
 
     padding-top: 2rem;
 }
 
-#ai-engineering-handbook {
+#working-notes-on-ai-systems {
 
     text-align: left;
 
     font-size: 2rem !important;
 
-    white-space: nowrap !important;
-
     letter-spacing: -0.02em;
 }
 
-.md-content__inner:has(#ai-engineering-handbook) p {
+.md-content__inner:has(#working-notes-on-ai-systems) p {
 
     text-align: left;
 
@@ -832,9 +830,7 @@
         font-size: 1.75rem;
     }
 
-    #ai-engineering-handbook {
-
-        white-space: normal !important;
+    #working-notes-on-ai-systems {
 
         font-size: 1.75rem !important;
     }

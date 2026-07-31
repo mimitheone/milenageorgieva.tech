@@ -1,5 +1,5 @@
-site_name: AI Engineering Handbook
-site_description: Practical handbook for AI Engineering, LLMs, RAG, AI Agents, Machine Learning and Time Series
+site_name: Working Notes on AI Systems
+site_description: Systems architecture and AI engineering notes — built as I go.
 site_url: https://milenageorgieva.tech
 
 copyright: Copyright &copy; 2026 <a href="https://milenageorgieva.tech">Milena Georgieva</a>
