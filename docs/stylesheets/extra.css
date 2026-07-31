@@ -29,6 +29,9 @@
        --scroll-thumb: #d4a078;
        --scroll-thumb-hover: #e4b48a;
 
+       --nav-active: #d4a078;
+       --nav-active-bg: rgba(212, 160, 120, 0.12);
+
        --radius: 5px;
    }
    
@@ -202,10 +205,10 @@
    }
    
    .md-nav__link--active{
-   
-       color:var(--accent);
-   
-       background:rgba(198,125,90,.10);
+
+       color:var(--nav-active);
+
+       background:var(--nav-active-bg);
    }
    
    /* ==========================================================
@@ -777,7 +780,13 @@ body,
 [data-md-color-accent="brown"] {
     --md-accent-fg-color: #d4a078;
     --md-accent-fg-color--transparent: #d4a0781a;
-    --md-typeset-a-color: #c67d5a;
+    --md-typeset-a-color: #d4a078;
+}
+
+[data-md-color-scheme="slate"][data-md-color-primary="black"],
+[data-md-color-scheme="slate"][data-md-color-primary="white"],
+[data-md-color-scheme="default"][data-md-color-primary="white"] {
+    --md-typeset-a-color: #d4a078;
 }
 
 * {
@@ -785,22 +794,28 @@ body,
     scrollbar-color: var(--scroll-thumb) var(--bg);
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+::-webkit-scrollbar,
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
 }
 
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track,
+.md-sidebar__scrollwrap::-webkit-scrollbar-track {
     background: var(--bg);
 }
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb,
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
     background: var(--scroll-thumb);
     border-radius: 999px;
     border: 2px solid var(--bg);
 }
 
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover,
+.md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb,
+.md-sidebar__scrollwrap:focus-within::-webkit-scrollbar-thumb,
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb:hover {
     background: var(--scroll-thumb-hover);
 }
 
@@ -808,40 +823,54 @@ body,
     background: var(--bg);
 }
 
-/* Material sidebar scrollbar (uses --md-accent-fg-color on hover) */
+/* Material sidebar: same thumb as page scrollbar */
 .md-sidebar__scrollwrap {
-    scrollbar-color: var(--scroll-thumb) transparent !important;
+    scrollbar-color: var(--scroll-thumb) var(--bg) !important;
 }
 
 .md-sidebar__scrollwrap:hover,
 .md-sidebar__scrollwrap:focus-within {
-    scrollbar-color: var(--scroll-thumb) transparent !important;
+    scrollbar-color: var(--scroll-thumb) var(--bg) !important;
 }
 
-.md-sidebar__scrollwrap::-webkit-scrollbar {
-    width: 0.2rem;
-    height: 0.2rem;
-}
-
-.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
-    background-color: #d4a078 !important;
-}
-
-.md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb,
-.md-sidebar__scrollwrap:focus-within::-webkit-scrollbar-thumb {
-    background-color: #d4a078 !important;
-}
-
-.md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb:hover,
-.md-sidebar__scrollwrap:focus-within::-webkit-scrollbar-thumb:hover {
-    background-color: #e4b48a !important;
-}
-
+.md-nav--primary .md-nav__item .md-nav__link--active,
 .md-nav--primary .md-nav__item--active > .md-nav__link,
 .md-nav--primary .md-nav__link--active,
 .md-nav--primary .md-nav__link:focus,
+.md-nav--primary .md-nav__link:active,
 .md-nav--primary .md-nav__item--active > .md-nav__link:hover {
-    color: var(--accent) !important;
+    color: var(--nav-active) !important;
+    background: var(--nav-active-bg);
+}
+
+/* ==========================================================
+   PAGE METADATA (last updated / created)
+   ========================================================== */
+
+.md-source-file {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-soft);
+    font-size: 0.85rem;
+}
+
+.md-source-file__fact,
+.md-source-file .git-revision-date-localized-plugin {
+    color: var(--text-soft) !important;
+}
+
+.md-source-file__fact {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.md-source-file .md-icon svg {
+    fill: var(--muted) !important;
 }
 
 /* ==========================================================

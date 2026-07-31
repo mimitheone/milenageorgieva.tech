@@ -18,6 +18,8 @@ If you spot an error, disagree with an approach or have a better idea, I would g
 
 ## Topics
 
+Structure in progress — sections will fill in as I publish.
+
 - Large Language Models (LLMs)
 - Prompt Engineering
 - Embeddings

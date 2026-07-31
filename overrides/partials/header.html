@@ -16,7 +16,7 @@
 
     <nav>
       {% for nav_item in nav %}
-        {% if nav_item.title != "Notes" and nav_item.title != "Contact" %}
+        {% if nav_item.title != "Notes" and nav_item.title != "Contact" and nav_item.title != "Bio" %}
           {% if nav_item.children %}
             <a href="{{ nav_item.children[0].url | url }}">{{ nav_item.title }}</a>
           {% else %}

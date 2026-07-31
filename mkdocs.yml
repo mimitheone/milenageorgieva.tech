@@ -54,7 +54,11 @@ plugins:
   - awesome-pages
 
   - git-revision-date-localized:
-      enable_creation_date: true
+      enable_creation_date: false
+      fallback_to_build_date: true
+      type: date
+      timezone: Europe/Sofia
+      locale: en
 
 markdown_extensions:
   - admonition
@@ -99,3 +103,4 @@ nav:
       - AI Act: ai-act/index.md
 
   - Contact: contact.md
+  - Bio: bio.md
