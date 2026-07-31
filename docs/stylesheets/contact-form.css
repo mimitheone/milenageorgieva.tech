@@ -21,7 +21,7 @@
     width: 100%;
     font-size: 0.85rem;
     font-weight: 600;
-    color: #f5efe8;
+    color: var(--text, #f5efe8);
     margin: 0 !important;
 }
 
@@ -32,10 +32,10 @@
     width: 100% !important;
     box-sizing: border-box;
     padding: 0.75rem 0.9rem;
-    border: 1px solid #3c302b;
+    border: 1px solid var(--border, #3a322f);
     border-radius: var(--radius, 5px);
-    background: #231c1a;
-    color: #f5efe8;
+    background: var(--panel, #211c1a);
+    color: var(--text, #f5efe8);
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.5;
@@ -45,7 +45,7 @@
 .md-typeset .contact-form__textarea:focus,
 .contact-form__input:focus {
     outline: none;
-    border-color: #d4a078;
+    border-color: var(--accent, #c67d5a);
 }
 
 .contact-form__textarea {
@@ -64,8 +64,8 @@
 .contact-form__notice {
     padding: 0.85rem 1rem;
     margin-bottom: 1rem;
-    border: 1px solid rgba(212, 160, 120, 0.35);
+    border: 1px solid rgba(198, 125, 90, 0.35);
     border-radius: var(--radius, 5px);
-    background: rgba(212, 160, 120, 0.1);
-    color: #f5efe8;
+    background: rgba(198, 125, 90, 0.1);
+    color: var(--text, #f5efe8);
 }
