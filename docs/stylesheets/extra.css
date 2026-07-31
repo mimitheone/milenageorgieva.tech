@@ -1011,30 +1011,43 @@ body,
     display: none !important;
 }
 
-/* Notes topic sections: collapsible headers with chevron */
-.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > label.md-nav__link {
+/* Nested handbook sections (LLM, Agents, …): title + chevron in one row */
+.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+}
+
+.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > a.md-nav__link {
+    display: block;
+    flex: 1 1 auto;
+    min-width: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-weight: 600;
     color: var(--muted);
 }
 
-.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > input.md-nav__toggle:checked + label.md-nav__link {
-    color: var(--accent);
+.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > a.md-nav__link:hover {
+    color: var(--text);
 }
 
-.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > label.md-nav__link .md-nav__icon {
+.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > label.md-nav__link {
+    flex: 0 0 auto;
+    margin-top: 0;
+    padding-right: 0.35rem;
+}
+
+.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > label.md-nav__link .md-nav__icon {
     color: inherit;
 }
 
-/* Nested section titles (e.g. Machine Learning): single line */
-.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > a.md-nav__link {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    min-width: 0;
-}
-
-.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > .md-nav__link.md-nav__container > a.md-nav__link .md-ellipsis {
-    white-space: nowrap;
+.md-nav--primary nav[data-md-level="1"] > .md-nav__list > .md-nav__item--nested > input.md-nav__toggle:checked ~ .md-nav__link.md-nav__container > a.md-nav__link {
+    color: var(--accent);
 }
 
 /* ==========================================================
