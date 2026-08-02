@@ -173,7 +173,14 @@ RELATED: dict[str, list[str]] = {
         "guardrails/tool-access-control.md",
         "guardrails/rule-based-filters.md",
     ],
+    "ai-act/eu-ai-act-implementation.md": [
+        "ai-act/high-risk-ai-systems.md",
+        "ai-act/risk-management.md",
+        "ai-act/human-in-the-loop.md",
+        "ai-act/monitoring-and-post-market-surveillance.md",
+    ],
     "ai-act/high-risk-ai-systems.md": [
+        "ai-act/eu-ai-act-implementation.md",
         "ai-act/risk-management.md",
         "ai-act/human-in-the-loop.md",
     ],

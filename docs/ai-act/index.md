@@ -4,6 +4,7 @@ Notes on the EU AI Act and AI governance — compliance, risk management, and wh
 
 ## In this section
 
+- [EU AI Act Implementation](eu-ai-act-implementation.md) — Turing, GPAI obligations, phased rollout and what it means for users
 - [High-Risk AI Systems](high-risk-ai-systems.md) — trustworthy AI beyond disclaimers and approval buttons
 - [Human-in-the-Loop](human-in-the-loop.md) — deliberate system design; people + AI > AI alone
 - [Risk Management](risk-management.md) — uncertainty as part of the architecture itself

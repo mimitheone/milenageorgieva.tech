@@ -88,6 +88,7 @@ People + AI > AI alone.
 
 ## Related notes
 
+- [EU AI Act Implementation](eu-ai-act-implementation.md)
 - [Risk Management](risk-management.md)
 - [Human-in-the-Loop](human-in-the-loop.md)
 

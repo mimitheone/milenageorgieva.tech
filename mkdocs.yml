@@ -169,6 +169,7 @@ nav:
           - Safety Enforcement: guardrails/safety-enforcement.md
       - AI Act:
           - Overview: ai-act/index.md
+          - EU AI Act Implementation: ai-act/eu-ai-act-implementation.md
           - High-Risk AI Systems: ai-act/high-risk-ai-systems.md
           - Human-in-the-Loop: ai-act/human-in-the-loop.md
           - Risk Management: ai-act/risk-management.md
