@@ -9,3 +9,4 @@ Notes on ML algorithms — classical methods, model selection, and how the lands
 - [K-Nearest Neighbors](knn.md) — similar things tend to behave similarly
 - [SHAP](shap.md) — explainable AI; from black box to inspectable predictions
 - [ML Algorithms](ml-algorithms.md) — ARIMA, the ML landscape, and algorithms old and new
+- [ARIMA](arima.md) — time series forecasting with little data; SARIMA for seasonality

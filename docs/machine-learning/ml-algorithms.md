@@ -12,6 +12,7 @@ Today I still stick with these algorithms and the exciting part is that we alrea
 
 ## Related notes
 
+- [ARIMA](arima.md)
 - [Clustering](clustering.md)
 - [K-Nearest Neighbors](knn.md)
 - [SHAP](shap.md)

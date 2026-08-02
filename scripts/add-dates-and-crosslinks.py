@@ -133,8 +133,14 @@ RELATED: dict[str, list[str]] = {
         "machine-learning/overfitting-in-business.md",
     ],
     "machine-learning/ml-algorithms.md": [
+        "machine-learning/arima.md",
         "machine-learning/clustering.md",
         "machine-learning/knn.md",
+        "machine-learning/shap.md",
+    ],
+    "machine-learning/arima.md": [
+        "machine-learning/ml-algorithms.md",
+        "machine-learning/overfitting-in-business.md",
         "machine-learning/shap.md",
     ],
     "guardrails/prompt-injection.md": [

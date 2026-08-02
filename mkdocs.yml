@@ -157,6 +157,7 @@ nav:
           - K-Nearest Neighbors: machine-learning/knn.md
           - SHAP: machine-learning/shap.md
           - ML Algorithms: machine-learning/ml-algorithms.md
+          - ARIMA: machine-learning/arima.md
       - Guardrails:
           - Overview: guardrails/index.md
           - Prompt Injection: guardrails/prompt-injection.md
