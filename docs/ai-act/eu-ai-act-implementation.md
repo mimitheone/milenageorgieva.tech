@@ -109,6 +109,8 @@ At the same time, every powerful technology can be misused. The purpose of the A
 
 Ultimately, trust is one of the key factors that will determine how successfully AI is adopted. Regulations such as the AI Act aim to ensure that innovation and responsibility evolve together.
 
+![EU AI Act — Implementation milestones and what it means for you](../assets/images/eu-ai-act-implementation.png)
+
 ## Related notes
 
 - [High-Risk AI Systems](high-risk-ai-systems.md)
