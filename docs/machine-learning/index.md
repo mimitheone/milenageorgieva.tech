@@ -10,3 +10,4 @@ Notes on ML algorithms — classical methods, model selection, and how the lands
 - [SHAP](shap.md) — explainable AI; from black box to inspectable predictions
 - [ML Algorithms](ml-algorithms.md) — ARIMA, the ML landscape, and algorithms old and new
 - [ARIMA](arima.md) — time series forecasting with little data; SARIMA for seasonality
+- [Central Tendency](central-tendency.md) — mean, median, and mode; which "average" to use

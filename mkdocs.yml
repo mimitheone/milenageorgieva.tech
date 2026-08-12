@@ -158,6 +158,7 @@ nav:
           - SHAP: machine-learning/shap.md
           - ML Algorithms: machine-learning/ml-algorithms.md
           - ARIMA: machine-learning/arima.md
+          - Central Tendency: machine-learning/central-tendency.md
       - Guardrails:
           - Overview: guardrails/index.md
           - Prompt Injection: guardrails/prompt-injection.md

@@ -134,6 +134,7 @@ RELATED: dict[str, list[str]] = {
     ],
     "machine-learning/ml-algorithms.md": [
         "machine-learning/arima.md",
+        "machine-learning/central-tendency.md",
         "machine-learning/clustering.md",
         "machine-learning/knn.md",
         "machine-learning/shap.md",
@@ -142,6 +143,11 @@ RELATED: dict[str, list[str]] = {
         "machine-learning/ml-algorithms.md",
         "machine-learning/overfitting-in-business.md",
         "machine-learning/shap.md",
+    ],
+    "machine-learning/central-tendency.md": [
+        "machine-learning/overfitting-in-business.md",
+        "machine-learning/ml-algorithms.md",
+        "machine-learning/clustering.md",
     ],
     "guardrails/prompt-injection.md": [
         "guardrails/ai-guardrails.md",
