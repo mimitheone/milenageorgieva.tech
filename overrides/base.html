@@ -40,9 +40,11 @@
       <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.7.7">
     {% endblock %}
     {% block htmltitle %}
-      {% if page.meta and page.meta.title %}
+      {% if page.file and page.file.src_uri == "index.md" %}
+        <title>{{ config.site_name }}</title>
+      {% elif page.meta and page.meta.title %}
         <title>{{ page.meta.title }} - {{ config.site_name }}</title>
-      {% elif page.title and not page.is_homepage %}
+      {% elif page.title %}
         <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
       {% else %}
         <title>{{ config.site_name }}</title>

@@ -5,6 +5,12 @@
   {% include "partials/json-ld.html" %}
 {% endblock %}
 
+{% block extrahead %}
+  {{ super() }}
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:locale" content="en">
+{% endblock %}
+
 {% block content %}
   {% include "partials/content.html" %}
 {% endblock %}

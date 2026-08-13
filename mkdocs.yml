@@ -1,5 +1,5 @@
 site_name: Working Notes on AI Systems
-site_description: Systems architecture and AI engineering notes — from production work.
+site_description: Systems architecture and AI engineering notes on AI agents, LLMs, machine learning, guardrails, and the EU AI Act — from production work.
 site_url: https://milenageorgieva.tech
 site_author: Milena Georgieva
 
@@ -78,6 +78,7 @@ hooks:
   - hooks/recent_posts.py
   - hooks/cache_bust.py
   - hooks/last_updated.py
+  - hooks/seo_meta.py
 
 markdown_extensions:
   - admonition

@@ -1,6 +1,6 @@
 # Working Notes on AI Systems
 
-Systems architecture and AI engineering notes — from production work.
+Systems architecture and AI engineering notes on AI agents, LLMs, machine learning, guardrails, and the EU AI Act — from production work.
 
 ---
 

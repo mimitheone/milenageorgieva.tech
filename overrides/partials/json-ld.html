@@ -1,43 +1,86 @@
 {#- Schema.org JSON-LD for SEO -#}
-{% if page.is_homepage %}
+{% set headline = page.meta.title if page.meta and page.meta.title else page.title %}
+{% set description = page.meta.description if page.meta and page.meta.description else config.site_description %}
+{% if page.file and page.file.src_uri == "index.md" %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": {{ config.site_name | tojson }},
-  "description": {{ config.site_description | tojson }},
+  "description": {{ description | tojson }},
   "url": {{ config.site_url | tojson }},
+  "inLanguage": "en",
   "author": {
     "@type": "Person",
-    "name": {{ config.site_author | tojson }}
+    "name": {{ config.site_author | tojson }},
+    "url": {{ (config.site_url ~ '/bio/') | tojson }}
+  }
+}
+</script>
+{% elif page.file and page.file.src_uri == "bio.md" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": {{ headline | striptags | tojson }},
+  "description": {{ description | tojson }},
+  "url": {{ page.canonical_url | tojson }},
+  "inLanguage": "en",
+  "mainEntity": {
+    "@type": "Person",
+    "name": {{ config.site_author | tojson }},
+    "url": {{ page.canonical_url | tojson }},
+    "jobTitle": "AI Systems Architect",
+    "sameAs": ["https://www.linkedin.com/in/milena-georgieva-9574607"]
   }
 }
 </script>
 {% elif page.meta and page.meta.date %}
 {% set social_path = page.file.src_path.replace('.md', '.png') %}
-{% set social_image = config.site_url ~ '/assets/images/social/' ~ social_path %}
+{% set social_image = config.site_url.rstrip('/') ~ '/assets/images/social/' ~ social_path %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": {{ page.title | striptags | tojson }},
-  "description": {{ (page.meta.description if page.meta.description else config.site_description) | tojson }},
+  "headline": {{ headline | striptags | tojson }},
+  "description": {{ description | tojson }},
   "url": {{ page.canonical_url | tojson }},
   "datePublished": {{ page.meta.date.strftime('%Y-%m-%d') | tojson }},
+  "inLanguage": "en",
   "author": {
     "@type": "Person",
-    "name": {{ (page.meta.author if page.meta.author else config.site_author) | tojson }}
+    "name": {{ (page.meta.author if page.meta.author else config.site_author) | tojson }},
+    "url": {{ (config.site_url ~ '/bio/') | tojson }}
   },
   "publisher": {
     "@type": "Person",
-    "name": {{ config.site_author | tojson }}
+    "name": {{ config.site_author | tojson }},
+    "url": {{ (config.site_url ~ '/bio/') | tojson }}
   },
   "image": {{ social_image | tojson }},
   "isPartOf": {
     "@type": "WebSite",
     "name": {{ config.site_name | tojson }},
     "url": {{ config.site_url | tojson }}
-  }
+  }{% if page.meta.article_section %},
+  "articleSection": {{ page.meta.article_section | tojson }}{% endif %}
+}
+</script>
+{% elif page.meta and page.meta.description and page.canonical_url %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ headline | striptags | tojson }},
+  "description": {{ description | tojson }},
+  "url": {{ page.canonical_url | tojson }},
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ config.site_name | tojson }},
+    "url": {{ config.site_url | tojson }}
+  }{% if page.meta.article_section %},
+  "about": {{ page.meta.article_section | tojson }}{% endif %}
 }
 </script>
 {% endif %}

@@ -1,5 +1,7 @@
 ---
 date: 2026-08-12
+title: The Three Measures of Central Tendency
+description: Mean, median, and mode — why NSI's €1,444 average Bulgarian wage is not what most people take home, and what each measure of central tendency actually tells you.
 ---
 
 # The Three Measures of Central Tendency
