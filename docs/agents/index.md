@@ -14,3 +14,4 @@ Notes on agentic systems — architecture, tool use, planning, and what it takes
 - [Dependency Inversion Principle](dependency-inversion-principle.md) — contracts over implementations; evolution as architecture
 - [Designing an Agent](designing-an-agent.md) — boundaries, contracts, capabilities, and why prompts come last
 - [Self-Improving Agents](self-improving-agents.md) — beyond self-critique toward verified self-improvement
+- [Architecture Wars](architecture-wars.md) — persona bias, adversarial agents, and architectural governance

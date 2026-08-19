@@ -67,6 +67,7 @@ It is a collection of small, focused, replaceable agents working together throug
 
 ## Related notes
 
+- [Architecture Wars](architecture-wars.md)
 - [Fallback Architecture](fallback-architecture.md)
 - [What Is an Agent?](what-is-an-agent.md)
 - [The Architecture of AI Systems](../ai-architecture/ai-systems-architecture.md)

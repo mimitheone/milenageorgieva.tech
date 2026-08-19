@@ -67,9 +67,16 @@ RELATED: dict[str, list[str]] = {
         "agents/designing-an-agent.md",
     ],
     "agents/core-design-principles.md": [
+        "agents/architecture-wars.md",
         "agents/fallback-architecture.md",
         "agents/what-is-an-agent.md",
         "ai-architecture/ai-systems-architecture.md",
+    ],
+    "agents/architecture-wars.md": [
+        "agents/core-design-principles.md",
+        "agents/designing-an-agent.md",
+        "agents/agent-communication-patterns.md",
+        "agents/fallback-architecture.md",
     ],
     "agents/fallback-architecture.md": [
         "agents/core-design-principles.md",

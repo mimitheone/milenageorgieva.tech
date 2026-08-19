@@ -141,6 +141,7 @@ nav:
           - Dependency Inversion Principle: agents/dependency-inversion-principle.md
           - Designing an Agent: agents/designing-an-agent.md
           - Self-Improving Agents: agents/self-improving-agents.md
+          - Architecture Wars: agents/architecture-wars.md
       - Systems Architecture:
           - Overview: ai-architecture/index.md
           - Single Responsibility Principle: ai-architecture/single-responsibility-principle.md
