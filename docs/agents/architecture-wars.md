@@ -133,4 +133,4 @@ The challenge then moves one level higher: not designing an AI architect, but de
 
 ---
 
-*19 August 2026.*
+*Originally published on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7495881337908895744/), 19 August 2026.*
