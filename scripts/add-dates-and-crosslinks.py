@@ -68,6 +68,7 @@ RELATED: dict[str, list[str]] = {
     ],
     "agents/core-design-principles.md": [
         "agents/architecture-wars.md",
+        "agents/trustworthy-ai-agents.md",
         "agents/fallback-architecture.md",
         "agents/what-is-an-agent.md",
         "ai-architecture/ai-systems-architecture.md",
@@ -77,6 +78,13 @@ RELATED: dict[str, list[str]] = {
         "agents/designing-an-agent.md",
         "agents/agent-communication-patterns.md",
         "agents/fallback-architecture.md",
+        "agents/trustworthy-ai-agents.md",
+    ],
+    "agents/trustworthy-ai-agents.md": [
+        "agents/architecture-wars.md",
+        "agents/core-design-principles.md",
+        "machine-learning/shap.md",
+        "ai-act/high-risk-ai-systems.md",
     ],
     "agents/fallback-architecture.md": [
         "agents/core-design-principles.md",
@@ -136,6 +144,7 @@ RELATED: dict[str, list[str]] = {
         "machine-learning/ml-algorithms.md",
     ],
     "machine-learning/shap.md": [
+        "agents/trustworthy-ai-agents.md",
         "machine-learning/ml-algorithms.md",
         "machine-learning/overfitting-in-business.md",
     ],
@@ -199,6 +208,7 @@ RELATED: dict[str, list[str]] = {
         "ai-act/monitoring-and-post-market-surveillance.md",
     ],
     "ai-act/high-risk-ai-systems.md": [
+        "agents/trustworthy-ai-agents.md",
         "ai-act/eu-ai-act-implementation.md",
         "ai-act/risk-management.md",
         "ai-act/human-in-the-loop.md",

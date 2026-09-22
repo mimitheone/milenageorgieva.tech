@@ -142,6 +142,7 @@ nav:
           - Designing an Agent: agents/designing-an-agent.md
           - Self-Improving Agents: agents/self-improving-agents.md
           - Architecture Wars: agents/architecture-wars.md
+          - "Building Trustworthy AI Agents: Design Patterns, SHAP and the EU AI Act": agents/trustworthy-ai-agents.md
       - Systems Architecture:
           - Overview: ai-architecture/index.md
           - Single Responsibility Principle: ai-architecture/single-responsibility-principle.md

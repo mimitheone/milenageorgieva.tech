@@ -86,6 +86,7 @@ Because if humans cannot explain a prediction…
 
 ## Related notes
 
+- [Building Trustworthy AI Agents: Design Patterns, SHAP and the EU AI Act](../agents/trustworthy-ai-agents.md)
 - [ML Algorithms](ml-algorithms.md)
 - [Overfitting in Business](overfitting-in-business.md)
 

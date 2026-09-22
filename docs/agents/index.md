@@ -15,3 +15,4 @@ Notes on agentic systems — architecture, tool use, planning, and what it takes
 - [Designing an Agent](designing-an-agent.md) — boundaries, contracts, capabilities, and why prompts come last
 - [Self-Improving Agents](self-improving-agents.md) — beyond self-critique toward verified self-improvement
 - [Architecture Wars](architecture-wars.md) — persona bias, adversarial agents, and architectural governance
+- [Building Trustworthy AI Agents: Design Patterns, SHAP and the EU AI Act](trustworthy-ai-agents.md) — reflection, planning, SHAP, and EU AI Act controls

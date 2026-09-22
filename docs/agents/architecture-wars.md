@@ -126,6 +126,7 @@ The challenge then moves one level higher: not designing an AI architect, but de
 
 ## Related notes
 
+- [Building Trustworthy AI Agents: Design Patterns, SHAP and the EU AI Act](trustworthy-ai-agents.md)
 - [Core Design Principles](core-design-principles.md)
 - [Designing an Agent](designing-an-agent.md)
 - [Agent Communication Patterns](agent-communication-patterns.md)

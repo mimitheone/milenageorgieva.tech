@@ -88,6 +88,7 @@ People + AI > AI alone.
 
 ## Related notes
 
+- [Building Trustworthy AI Agents: Design Patterns, SHAP and the EU AI Act](../agents/trustworthy-ai-agents.md)
 - [EU AI Act Implementation](eu-ai-act-implementation.md)
 - [Risk Management](risk-management.md)
 - [Human-in-the-Loop](human-in-the-loop.md)
