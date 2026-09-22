@@ -331,4 +331,4 @@ As agents take on more consequential work, their useful autonomy will depend on 
 
 ---
 
-*22 September 2026.*
+*Originally published on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7508052459752226816/), 22 September 2026.*
