@@ -36,8 +36,18 @@ RELATED_SECTION = re.compile(
 
 # Symmetric pairs: each entry lists related doc paths (relative to docs/).
 RELATED: dict[str, list[str]] = {
-    "llm/llm-cost-predictability.md": ["llm/llm-cost-optimization.md"],
-    "llm/llm-cost-optimization.md": ["llm/llm-cost-predictability.md"],
+    "llm/llm-cost-predictability.md": [
+        "llm/llm-cost-optimization.md",
+        "llm/using-ai-tokens-wisely.md",
+    ],
+    "llm/llm-cost-optimization.md": [
+        "llm/llm-cost-predictability.md",
+        "llm/using-ai-tokens-wisely.md",
+    ],
+    "llm/using-ai-tokens-wisely.md": [
+        "llm/llm-cost-predictability.md",
+        "llm/llm-cost-optimization.md",
+    ],
     "agents/darwin-godel-machine.md": [
         "agents/self-improving-agents.md",
         "agents/dependency-inversion-principle.md",

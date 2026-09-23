@@ -129,6 +129,7 @@ nav:
           - Overview: llm/index.md
           - Cost Predictability: llm/llm-cost-predictability.md
           - LLM Cost Optimization: llm/llm-cost-optimization.md
+          - "How to Use AI Tokens Wisely: A Practical Guide to Better Results and Lower Costs": llm/using-ai-tokens-wisely.md
       - AI Agents:
           - Overview: agents/index.md
           - Darwin Gödel Machine: agents/darwin-godel-machine.md

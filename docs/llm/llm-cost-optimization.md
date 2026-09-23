@@ -142,6 +142,7 @@ But the ones that know how to:
 
 ## Related notes
 
+- [How to Use AI Tokens Wisely](using-ai-tokens-wisely.md)
 - [Cost Predictability](llm-cost-predictability.md)
 
 ---

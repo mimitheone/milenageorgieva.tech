@@ -166,6 +166,7 @@ all at the same time.
 
 ## Related notes
 
+- [How to Use AI Tokens Wisely](using-ai-tokens-wisely.md)
 - [LLM Cost Optimization](llm-cost-optimization.md)
 
 ---
