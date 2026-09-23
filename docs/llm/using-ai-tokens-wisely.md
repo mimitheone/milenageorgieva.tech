@@ -285,4 +285,4 @@ Afterward, inspect the complete cost—not just the final response.
 
 ---
 
-*23 September 2026.*
+*Originally published on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7508536545755295744/), 23 September 2026.*
