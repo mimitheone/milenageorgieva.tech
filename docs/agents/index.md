@@ -5,6 +5,7 @@ Notes on agentic systems — architecture, tool use, planning, and what it takes
 ## In this section
 
 - [Darwin Gödel Machine](darwin-godel-machine.md) — self-improving code, verified evolution, and the DGM concept
+- [What Happens When Agents Evolve, Inherit and Replicate?](evolve-inherit-replicate.md) — DGM, inherited experience, replication, and control boundaries
 - [What Is an Agent?](what-is-an-agent.md) — a markdown file is not the agent; the runtime system is
 - [Fallback Architecture](fallback-architecture.md) — resilience, degradation, bounded autonomy, escape paths
 - [Core Design Principles](core-design-principles.md) — SRP, modularity, coupling, and agent anti-patterns

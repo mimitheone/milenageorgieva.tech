@@ -133,6 +133,7 @@ nav:
       - AI Agents:
           - Overview: agents/index.md
           - Darwin Gödel Machine: agents/darwin-godel-machine.md
+          - "What Happens When Agents Evolve, Inherit and Replicate?": agents/evolve-inherit-replicate.md
           - What Is an Agent?: agents/what-is-an-agent.md
           - Fallback Architecture: agents/fallback-architecture.md
           - Core Design Principles: agents/core-design-principles.md

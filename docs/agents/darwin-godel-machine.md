@@ -16,6 +16,7 @@ P.S. after the P.S. Yes, I am excited to discuss technologies and I don't see th
 
 ## Related notes
 
+- [What Happens When Agents Evolve, Inherit and Replicate?](evolve-inherit-replicate.md)
 - [Self-Improving Agents](self-improving-agents.md)
 - [Dependency Inversion Principle](dependency-inversion-principle.md)
 

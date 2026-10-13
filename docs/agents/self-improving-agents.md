@@ -59,6 +59,7 @@ To me, that is where autonomous agents become truly interesting.
 
 ## Related notes
 
+- [What Happens When Agents Evolve, Inherit and Replicate?](evolve-inherit-replicate.md)
 - [Darwin Gödel Machine](darwin-godel-machine.md)
 - [Dependency Inversion Principle](dependency-inversion-principle.md)
 - [Designing an Agent](designing-an-agent.md)

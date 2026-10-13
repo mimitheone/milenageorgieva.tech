@@ -49,13 +49,21 @@ RELATED: dict[str, list[str]] = {
         "llm/llm-cost-optimization.md",
     ],
     "agents/darwin-godel-machine.md": [
+        "agents/evolve-inherit-replicate.md",
         "agents/self-improving-agents.md",
         "agents/dependency-inversion-principle.md",
     ],
     "agents/self-improving-agents.md": [
+        "agents/evolve-inherit-replicate.md",
         "agents/darwin-godel-machine.md",
         "agents/dependency-inversion-principle.md",
         "agents/designing-an-agent.md",
+    ],
+    "agents/evolve-inherit-replicate.md": [
+        "agents/darwin-godel-machine.md",
+        "agents/self-improving-agents.md",
+        "agents/trustworthy-ai-agents.md",
+        "agents/fallback-architecture.md",
     ],
     "agents/dependency-inversion-principle.md": [
         "agents/darwin-godel-machine.md",
