@@ -42,4 +42,4 @@ For a video explanation of the Darwin Gödel Machine, I recommend this: [Darwin 
 
 ---
 
-*13 October 2026.*
+*Originally published on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7515782794321555457/), 13 October 2026.*
