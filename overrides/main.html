@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 
+{% block htmltitle %}
+  {% if page.file and page.file.src_uri == "index.md" %}
+    <title>{{ config.site_name }}</title>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
+
 {% block site_meta %}
   {{ super() }}
   {% include "partials/json-ld.html" %}
