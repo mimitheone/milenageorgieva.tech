@@ -7,8 +7,9 @@ import subprocess
 from pathlib import Path
 
 THEME_ASSET = re.compile(
-    r"(?P<url>assets/(?:stylesheets|javascripts)/[^\"'?#]+)(?=[\"'])"
+    r"(?P<url>(?:\.\./)*assets/(?:stylesheets|javascripts)/[^\"'?#]+)(?=[\"'])"
 )
+DEPLOY_MARKER = re.compile(r"<!-- deploy: [a-f0-9]+ -->\n?", re.IGNORECASE)
 
 
 def _git_revision(config_file: Path) -> str:
@@ -38,11 +39,22 @@ def on_post_build(config, **kwargs):
     revision = _git_revision(config_file)
     site_dir = Path(config.site_dir)
 
+    marker = f"<!-- deploy: {revision} -->\n"
+
     for html_path in site_dir.rglob("*.html"):
-        content = html_path.read_text(encoding="utf-8")
+        original = html_path.read_text(encoding="utf-8")
+        content = DEPLOY_MARKER.sub("", original, count=1)
         updated = THEME_ASSET.sub(
             lambda match: f"{match.group('url')}?v={revision}",
             content,
         )
-        if updated != content:
+        if "<!doctype html>" in updated[:50].lower():
+            updated = re.sub(
+                r"(<!doctype html>\s*)",
+                rf"\1{marker}",
+                updated,
+                count=1,
+                flags=re.IGNORECASE,
+            )
+        if updated != original:
             html_path.write_text(updated, encoding="utf-8")
