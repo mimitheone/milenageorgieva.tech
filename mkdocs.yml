@@ -66,7 +66,7 @@ plugins:
         logo: docs/assets/images/logo-mark.png
 
   - rss:
-      match_path: "(llm|agents|ai-architecture|machine-learning|guardrails|ai-act)/(?!index\\.md)[^/]+\\.md"
+      match_path: "(llm|agents|ai-architecture|machine-learning|guardrails|ai-act|essays)/(?!index\\.md)[^/]+\\.md"
       date_from_meta:
         as_creation: date
         as_update: git
@@ -183,6 +183,9 @@ nav:
           - Bias & Fairness Controls: ai-act/bias-and-fairness-controls.md
           - Logging & Auditability: ai-act/logging-and-auditability.md
           - Monitoring & Post-Market Surveillance: ai-act/monitoring-and-post-market-surveillance.md
+      - Essays:
+          - Overview: essays/index.md
+          - "How will people become seniors if nobody gives them a junior role?": essays/how-will-people-become-seniors.md
 
   - Contact: contact.md
   - Bio: bio.md

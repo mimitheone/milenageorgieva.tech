@@ -8,7 +8,7 @@ from pathlib import Path
 
 MARKER = "<!-- recent-posts -->"
 ARTICLE_PATH = re.compile(
-    r"^(llm|agents|ai-architecture|machine-learning|guardrails|ai-act)/"
+    r"^(llm|agents|ai-architecture|machine-learning|guardrails|ai-act|essays)/"
     r"(?!index\.md)[^/]+\.md$"
 )
 FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)

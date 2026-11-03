@@ -10,7 +10,7 @@ At an international bank in Frankfurt I lead multidisciplinary engineering teams
 
 As CAIO at a small FinTech startup I built an AI-driven CFO assistant from scratch — ARIMA, LLMs, SHAP, and EU AI Act principles embedded in the architecture and governance from the start.
 
-Site Lead at Scalefocus and Head of Operations for Scalefocus Academy — building the academy concept, curriculum, partnerships with universities, and the operational model that trained thousands of developers, students, and professionals.
+Site Lead at Scalefocus and Head of Operations for Scalefocus Academy — building the academy concept, curriculum, partnerships with universities, and the operational model that trained thousands of developers, students, and professionals. [How will people become seniors if nobody gives them a junior role?](essays/how-will-people-become-seniors.md) expands on why entry paths and development still matter.
 
 PhD candidate in Informatics and Computer Science. Author of peer-reviewed papers (IEEE, ACM) and co-author of a programming textbook chapter.
 
