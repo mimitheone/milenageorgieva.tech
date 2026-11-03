@@ -29,7 +29,7 @@ This is a responsibility I have chosen to take.
 
 That is why I struggle with conversations where everyone can describe the problem, everyone can explain why it matters, and somehow nobody sees a role for themselves in solving it.
 
-We need to discuss what is happening. We need to challenge decisions and make their consequences visible. But recognising a problem cannot be the final contribution of everyone who understands it.
+We need to discuss what is happening, challenge decisions and make their consequences visible. But recognising a problem cannot be the final contribution of everyone who understands it.
 
 At some point, we need to start doing.
 
@@ -38,6 +38,38 @@ Companies cannot expect experience to appear on demand.
 If your hiring strategy depends entirely on finding people whom another company has already trained, you depend on someone else continuing to make that investment.
 
 What happens when everyone makes the same decision?
+
+And please, stop treating "there are plenty of people on the market, but they do not have the right skills" as a complete explanation.
+
+If that is where your analysis ends, you are missing how the job market works.
+
+The skills available today reflect the opportunities people had to learn and work yesterday. Companies influence that supply through whom they hire, what they teach and which responsibilities they allow people to take on.
+
+If we reduce entry-level hiring, cut development opportunities and then complain that candidates lack experience, we need to examine our own contribution to that outcome.
+
+Of course, skills gaps exist. Some roles require expertise that cannot be developed during a short onboarding period. But we should be able to distinguish between essential knowledge, skills someone can learn with reasonable support and familiarity with our particular tools or internal processes.
+
+Those distinctions matter. So do the salary offered, the location, the working conditions and the time we are willing to invest in someone.
+
+An unfilled vacancy does not, by itself, prove that the people available are inadequate.
+
+Before repeating that "the right people are not out there," ask how realistic your expectations are, what potential you are overlooking and what your organisation is prepared to develop.
+
+Then there is the contradiction inside the organisation itself.
+
+Someone is writing a job description asking for senior expertise, while someone else rejects a candidate for being "too senior."
+
+One team says it cannot find enough experience. Another turns experience away.
+
+There can be legitimate concerns about scope, salary or expectations. Then name them precisely and discuss them with the candidate. "Too senior" is a label that explains very little on its own.
+
+When an organisation complains about a shortage of skills while rejecting the people who possess them, it needs to examine how its hiring decisions are being made.
+
+At that point, I would stop treating this as an isolated symptom. It points to a serious disconnect between workforce planning, recruitment and management. It requires action.
+
+Review the requirements. Examine why candidates are being rejected. Check whether the advertised responsibilities match the actual authority and compensation. Make sure the people defining the role and those assessing candidates agree on what they need.
+
+Pointing at the job market is easy. Taking responsibility for contradictory decisions inside your own organisation requires work.
 
 We want senior professionals with technical depth, sound judgement, business understanding and the ability to take responsibility. Those qualities develop through real work, feedback, mistakes, difficult decisions and gradually increasing responsibility.
 
@@ -107,11 +139,11 @@ You do not need to build an entire Academy to contribute.
 
 Not everyone can hire. Not everyone can commit to regular mentoring. But many of us can do something concrete.
 
-Review a beginner's project properly. Help someone prepare for an interview. Explain why a design decision will create maintenance problems. Show a new joiner how you investigate a failure. Give feedback that they can act on.
+Review a beginner's project properly. Help someone prepare for an interview. Explain why a design decision will create maintenance problems. Show a new joiner how you investigate a failure. Give feedback they can act on.
 
 Move beyond "this is wrong" and explain the reasoning.
 
-Ask them why they chose an approach, how they tested it and which assumptions it depends on. Give them space to think, revise and try again.
+Ask why they chose an approach, how they tested it and which assumptions it depends on. Give them space to think, revise and try again.
 
 These interactions help people develop judgement. They also communicate that learning is part of belonging to the team.
 
@@ -134,8 +166,6 @@ Seek feedback and act on it. Ask questions that help you move forward. Take resp
 None of this guarantees an interview or a job. It does create progress and evidence of your capabilities.
 
 The same principle applies across experience levels: recognise the constraints, then identify your next useful action.
-
-I want to see more people building teams and developing professionals.
 
 I want to hear what someone changed in their onboarding process. How they helped a struggling colleague improve. How they redesigned an internship. What they learned from mentoring someone whose needs were different from their own.
 
