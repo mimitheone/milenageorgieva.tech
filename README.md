@@ -2,4 +2,5 @@
 
 Static site source: [MkDocs](https://www.mkdocs.org/) + [Material](https://squidfunk.github.io/mkdocs-material/).
 
-- **Deploy:** see [DEPLOY-RENDER.md](DEPLOY-RENDER.md) for hosting on [Render](https://render.com/) when the GitHub repo is **private** (GitHub Pages may not serve a public site from a private repo on a free personal account).
+- **Deploy (GitHub Pages):** push to `main` runs [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml). In the repo, set **Settings → Pages → Source: GitHub Actions** once.
+- **Deploy (Render):** see [DEPLOY-RENDER.md](DEPLOY-RENDER.md) when you prefer hosting on [Render](https://render.com/) (e.g. **private** repo on a free personal GitHub account, where public Pages may be unavailable).

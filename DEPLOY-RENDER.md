@@ -25,4 +25,5 @@ Native **Render Static Sites** cannot run `apt-get` during the build; MkDocs nee
 
 ## GitHub Actions
 
-`.github/workflows/ci.yml` only runs `mkdocs build` (validation). It does **not** deploy to GitHub Pages.
+- **`deploy-pages.yml`** — on push to `main`, builds with MkDocs and deploys the `site/` output to **GitHub Pages** (after you set **Settings → Pages → Build and deployment → Source: GitHub Actions**).
+- **`ci.yml`** — runs `mkdocs build` on **pull requests** only (validation, no deploy).
