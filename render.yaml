@@ -1,0 +1,12 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# MkDocs needs Cairo/Pango at build time (social cards). Native Render static builds
+# cannot apt-get; this uses Docker to build then serves with nginx.
+services:
+  - type: web
+    name: milenageorgieva-tech
+    runtime: docker
+    region: frankfurt
+    branch: main
+    dockerfilePath: ./Dockerfile
+    autoDeployTrigger: commit
+    # Add milenageorgieva.tech under Settings → Custom domains after first deploy.
