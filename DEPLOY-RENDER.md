@@ -25,5 +25,5 @@ Native **Render Static Sites** cannot run `apt-get` during the build; MkDocs nee
 
 ## GitHub Actions
 
-- **`deploy-pages.yml`** — on push to `main`, builds with MkDocs and deploys the `site/` output to **GitHub Pages** (after you set **Settings → Pages → Build and deployment → Source: GitHub Actions**).
+- **`deploy-pages.yml`** — on push to `main`, builds with MkDocs, adds **`site/.nojekyll`** (so GitHub Pages does not run Jekyll on top of the MkDocs build), and deploys to **GitHub Pages** (after you set **Settings → Pages → Build and deployment → Source: GitHub Actions**).
 - **`ci.yml`** — runs `mkdocs build` on **pull requests** only (validation, no deploy).

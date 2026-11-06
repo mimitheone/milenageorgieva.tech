@@ -38,6 +38,11 @@ jobs:
       - name: Build
         run: mkdocs build --strict
 
+      # GitHub Pages runs Jekyll on uploaded sites by default; README.md at repo root
+      # then becomes the homepage. This file disables Jekyll so the MkDocs output is served.
+      - name: Disable Jekyll on Pages
+        run: touch site/.nojekyll
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
