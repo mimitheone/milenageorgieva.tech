@@ -157,6 +157,7 @@ nav:
           - The Architecture of AI Systems: ai-architecture/ai-systems-architecture.md
       - Machine Learning:
           - Overview: machine-learning/index.md
+          - Building a Reliable ML Model: machine-learning/building-reliable-ml-model.md
           - Overfitting in Business: machine-learning/overfitting-in-business.md
           - Clustering: machine-learning/clustering.md
           - K-Nearest Neighbors: machine-learning/knn.md

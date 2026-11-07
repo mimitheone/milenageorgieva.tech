@@ -4,6 +4,7 @@ Notes on ML algorithms — classical methods, model selection, and how the lands
 
 ## In this section
 
+- [Building a Reliable ML Model](building-reliable-ml-model.md) — from problem definition to deployment without leaking the test set
 - [Overfitting in Business](overfitting-in-business.md) — signal vs noise; when models memorize instead of learn
 - [Clustering](clustering.md) — discovering hidden patterns; no labels, just similarity
 - [K-Nearest Neighbors](knn.md) — similar things tend to behave similarly
