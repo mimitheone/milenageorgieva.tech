@@ -102,3 +102,7 @@ Building a reliable ML model means being able to explain what it predicts, what 
 - [ML Algorithms](ml-algorithms.md) — the algorithm landscape beyond a single workflow diagram
 - [SHAP](shap.md) — explaining individual predictions after the model is built
 - [Monitoring & Post-Market Surveillance](../ai-act/monitoring-and-post-market-surveillance.md) — responsibility does not end at deployment
+
+---
+
+*Originally published on [LinkedIn](https://lnkd.in/p/dUFvNTBA), 7 November 2026.*
